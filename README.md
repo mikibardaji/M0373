@@ -15,10 +15,10 @@ Guió de tots els aspectes que anem explicant a classe.
 > >   * [Enllaços relatius Vs Absoluts](http://www.elsapunts.cat/Alfabetitzaci%C3%B3/alfabetitzacio%20digital%201/Modul_4/1-08-4.html)
 
 
-> > * [Enllaços](https://www.w3schools.com/html/html_lists.asp)
-> > >   * [Llista desordenada](https://www.w3schools.com/html/html_lists_unordered.asp)
-> > >   * [Llista Ordenada](https://www.w3schools.com/html/html_lists_ordered.asp)
-> > >   * [Llista definició](https://www.w3schools.com/html/html_lists_other.asp)
+> * [Llistes](https://www.w3schools.com/html/html_lists.asp)
+> > * [Llista desordenada](https://www.w3schools.com/html/html_lists_unordered.asp)
+> > * [Llista Ordenada](https://www.w3schools.com/html/html_lists_ordered.asp)
+> > * [Llista definició](https://www.w3schools.com/html/html_lists_other.asp)
 
 > #### CSS taules
 > > * [Bordes](https://www.w3schools.com/css/css_border.asp)
