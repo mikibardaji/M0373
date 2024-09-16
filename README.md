@@ -10,11 +10,14 @@ Guió de tots els aspectes que anem explicant a classe.
 > * [Capçalera](https://www.w3schools.com/html/html_headings.asp)
 > * [Paragraf](https://www.w3schools.com/html/html_paragraphs.asp)
 > * [Comentaris dins codi](https://www.w3schools.com/html/html_comments.asp)
+
+> #### Imatges i Links
 > * [Imatges](https://www.w3schools.com/html/html_images.asp)
 > * [Enllaços](https://www.w3schools.com/html/html_links.asp)
 > >   * [Enllaços relatius Vs Absoluts](http://www.elsapunts.cat/Alfabetitzaci%C3%B3/alfabetitzacio%20digital%201/Modul_4/1-08-4.html)
 
 
+> #### Llistes
 > * [Llistes](https://www.w3schools.com/html/html_lists.asp)
 > > * [Llista desordenada](https://www.w3schools.com/html/html_lists_unordered.asp)
 > > * [Llista Ordenada](https://www.w3schools.com/html/html_lists_ordered.asp)
