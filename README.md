@@ -21,6 +21,7 @@ Guió de tots els aspectes que anem explicant a classe.
 > > * [Llista definició](https://www.w3schools.com/html/html_lists_other.asp)
 
 > #### CSS taules
+> > * [Taules](https://www.w3schools.com/html/html_tables.asp)
 > > * [Bordes](https://www.w3schools.com/css/css_border.asp)
 
 ## Sessió 2 CSS:
