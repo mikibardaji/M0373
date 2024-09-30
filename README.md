@@ -23,11 +23,12 @@ Guió de tots els aspectes que anem explicant a classe.
 > > * [Llista Ordenada](https://www.w3schools.com/html/html_lists_ordered.asp)
 > > * [Llista definició](https://www.w3schools.com/html/html_lists_other.asp)
 
+## Sessió 2 Taules i CSS:
+
 > #### CSS taules
 > > * [Taules](https://www.w3schools.com/html/html_tables.asp)
 > > * [Bordes](https://www.w3schools.com/css/css_border.asp)
-
-## Sessió 2 CSS:
+> > * [Etiqueta span](https://www.w3schools.com/tags/tag_span.asp)
 
 > ### Introducció CSS
 > > * [Sintaxis](https://www.w3schools.com/css/css_syntax.asp)
@@ -40,23 +41,21 @@ Guió de tots els aspectes que anem explicant a classe.
 > > * [Alineació Text Centre/Dreta/Esquerra](https://www.w3schools.com/cssref/pr_text_text-align.php)
   
 
-      
-## Sessió 3 Etiqueta SPAN i Taules:
-
-> #### HTML
-> > * [Etiqueta span](https://www.jose-aguilar.com/blog/como-agregar-una-fuente-a-tu-pagina-web-con-css)
-> > * [Taules](https://www.w3schools.com/html/html_tables.asp)
-
-> #### CSS general
-> > * [Selectors: id(únic) i class(grup)](https://www.w3schools.com/css/css_selectors.asp)
-  
-
-> >
-## Sessió 4 Tipus lletres:
+     
+## Sessió 3 Tipus lletres:
 
 > #### Diferents tipus Lletres
 > > * [Utilitzar font local](https://www.jose-aguilar.com/blog/como-agregar-una-fuente-a-tu-pagina-web-con-css)
 > > * [Lletres Google Fonts linkades al nuvol](https://www.w3schools.com/css/css_font_google.asp)
+
+## Sessió 7 DIV i propietats finestres HTML :
+
+> > * [Model i propietats bàsiques de totes les Caixes](https://uniwebsidad.com/libros/css/capitulo-4?from=librosweb)
+> > > * [Margins](https://www.w3schools.com/css/css_margin.asp)
+> > > * [Padding](https://www.w3schools.com/css/css_padding.asp)
+> > > * [Background](https://www.w3schools.com/css/css_background.asp)
+
+
 
 ## Sessió 5 FORMULARIS:
 
@@ -65,12 +64,6 @@ Guió de tots els aspectes que anem explicant a classe.
 > > * [Atribut Type diferent per diferents cuadres de text](https://www.w3schools.com/html/html_form_input_types.asp)
 > > * [Fieldset recuadre per ajuntar diferents camps](https://www.w3schools.com/tags/tag_fieldset.asp)
 
-## Sessió 7 DIV i propietats finestres HTML :
-
-> > * [Model i propietats bàsiques de totes les Caixes](https://uniwebsidad.com/libros/css/capitulo-4?from=librosweb)
-> > > * [Margins](https://www.w3schools.com/css/css_margin.asp)
-> > > * [Padding](https://www.w3schools.com/css/css_padding.asp)
-> > > * [Background](https://www.w3schools.com/css/css_background.asp)
 
 ## Sessió 6 Posicionament Caixes :
 > > > 1. [Posicionament normal](https://uniwebsidad.com/libros/css/capitulo-5/posicionamiento-normal)
