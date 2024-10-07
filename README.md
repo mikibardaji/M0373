@@ -42,27 +42,29 @@ Guió de tots els aspectes que anem explicant a classe.
   
 
      
-## Sessió 3 Tipus lletres:
+## Sessió 3 
 
 > #### Diferents tipus Lletres
 > > * [Utilitzar font local](https://www.jose-aguilar.com/blog/como-agregar-una-fuente-a-tu-pagina-web-con-css)
 > > * [Lletres Google Fonts linkades al nuvol](https://www.w3schools.com/css/css_font_google.asp)
 
-## Sessió 7 DIV i propietats finestres HTML :
+> ### FORMULARIS:
+> > * [Formularis y els seus components](https://www.w3schools.com/html/html_forms.asp)
+> > * [Elements diferents formulari](https://www.w3schools.com/html/html_form_elements.asp)
+> > * [Atribut Type diferent per diferents cuadres de text](https://www.w3schools.com/html/html_form_input_types.asp)
+> > * [Fieldset recuadre per ajuntar diferents camps](https://www.w3schools.com/tags/tag_fieldset.asp)
+
+## Sessió 4 DIV i propietats finestres HTML :
 
 > > * [Model i propietats bàsiques de totes les Caixes](https://uniwebsidad.com/libros/css/capitulo-4?from=librosweb)
 > > > * [Margins](https://www.w3schools.com/css/css_margin.asp)
 > > > * [Padding](https://www.w3schools.com/css/css_padding.asp)
 > > > * [Background](https://www.w3schools.com/css/css_background.asp)
 
+> ## Noves Etiquetes HTML5
+> > > 1. [HEADER SECTION NAV FOOTER SECTION ASIDE visual](https://ayudawp.com/html5-todas-las-nuevas-etiquetas/)
+> > > 2. [HEADER SECTION NAV FOOTER SECTION ASIDE](https://desarrolloweb.com/articulos/nuevas-etiquetas-html5.html)
 
-
-## Sessió 5 FORMULARIS:
-
-> > * [Formularis y els seus components](https://www.w3schools.com/html/html_forms.asp)
-> > * [Elements diferents formulari](https://www.w3schools.com/html/html_form_elements.asp)
-> > * [Atribut Type diferent per diferents cuadres de text](https://www.w3schools.com/html/html_form_input_types.asp)
-> > * [Fieldset recuadre per ajuntar diferents camps](https://www.w3schools.com/tags/tag_fieldset.asp)
 
 
 ## Sessió 6 Posicionament Caixes :
@@ -74,6 +76,3 @@ Guió de tots els aspectes que anem explicant a classe.
 > > > > * [Posicionament float W3Schools](https://www.w3schools.com/css/css_float.asp)
 > > > 5. [Posicionament grid-layout](https://www.w3schools.com/css/css_grid.asp)
 
-## Sessió 7 Noves Etiquetes HTML5 :
-> > > 1. [HEADER SECTION NAV FOOTER SECTION ASIDE visual](https://ayudawp.com/html5-todas-las-nuevas-etiquetas/)
-> > > 2. [HEADER SECTION NAV FOOTER SECTION ASIDE](https://desarrolloweb.com/articulos/nuevas-etiquetas-html5.html)
