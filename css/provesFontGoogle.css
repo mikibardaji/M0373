@@ -1,0 +1,24 @@
+@font-face {
+    font-family: MontserratPrimer;
+    src: url('../fonts/Montserrat-2.ttf');
+}
+
+
+h1
+{
+    font-family: "Sixtyfour Convergence", sans-serif;
+  /*  font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0,
+      "XELA" 0,
+      "YELA" 0; */
+    font-size: 100px!important;
+}
+
+p{
+   font-family: MontserratPrimer,sans-serif; 
+   color:blue;
+}

@@ -1,0 +1,18 @@
+table,th,td
+{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.M0485
+{
+    color:blue;
+    background-color: bisque;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Descans
+{
+    text-align: center;
+}
