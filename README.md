@@ -59,6 +59,7 @@ Guió de tots els aspectes que anem explicant a classe.
 > > * [Model i propietats bàsiques de totes les Caixes](https://uniwebsidad.com/libros/css/capitulo-4?from=librosweb)
 > > > * [Margins](https://www.w3schools.com/css/css_margin.asp)
 > > > * [Padding](https://www.w3schools.com/css/css_padding.asp)
+> > > * [Width y Height](https://www.w3schools.com/css/css_dimension.asp)
 > > > * [Background](https://www.w3schools.com/css/css_background.asp)
 
 > ## Noves Etiquetes HTML5
