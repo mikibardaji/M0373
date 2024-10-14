@@ -66,7 +66,8 @@ Guió de tots els aspectes que anem explicant a classe.
 > > > 1. [HEADER SECTION NAV FOOTER SECTION ASIDE visual](https://ayudawp.com/html5-todas-las-nuevas-etiquetas/)
 > > > 2. [HEADER SECTION NAV FOOTER SECTION ASIDE](https://desarrolloweb.com/articulos/nuevas-etiquetas-html5.html)
 
-
+> ## Posicionament Grid
+> > > 1. [Posicionament grid](https://www.w3schools.com/css/css_grid.asp)
 
 ## Sessió 6 Posicionament Caixes :
 > > > 1. [Posicionament normal](https://uniwebsidad.com/libros/css/capitulo-5/posicionamiento-normal)
