@@ -1,0 +1,30 @@
+img
+{
+    width: 100px;
+    height: 100px;
+}
+
+h1{
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-top: 35px;
+    margin-bottom: 27px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+h3{
+    border: 2px dotted yellow;
+}
+
+p{
+    border: 1px solid orangered;
+    padding-right: 30px;
+}
+
+img 
+{
+    border: 1px solid blue;
+    margin-right: 30px;
+    margin-top: 50px;
+}
