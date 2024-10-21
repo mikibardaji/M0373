@@ -68,8 +68,27 @@ Guió de tots els aspectes que anem explicant a classe.
 
 > ## Posicionament Grid
 > > > 1. [Posicionament grid](https://www.w3schools.com/css/css_grid.asp)
+> > > 2. [Ombres](https://www.w3schools.com/css/css3_shadows.asp)
+> > > 3. [Projeccions 2D](https://www.w3schools.com/css/css3_2dtransforms.asp)
+> > > 4. [Projeccions 3D](https://www.w3schools.com/css/css3_3dtransforms.asp)
+> > > 5. [Transicions](https://www.w3schools.com/css/css3_transitions.asp)
 
-## Sessió 6 Posicionament Caixes :
+## Sessió 5 Animacions i boostrap :
+
+> ### Animacions i altres
+> > > 1. [Borders redondejats](https://www.w3schools.com/css/css3_borders.asp)
+> > > 2. [Ombres](https://www.w3schools.com/css/css3_shadows.asp)
+> > > 3. [Projeccions 2D](https://www.w3schools.com/css/css3_2dtransforms.asp)
+> > > 4. [Projeccions 3D](https://www.w3schools.com/css/css3_3dtransforms.asp)
+> > > 5. [Transicions](https://www.w3schools.com/css/css3_transitions.asp)
+
+> ### Boostrap
+> > > 1. [Introduccio](https://www.w3schools.com/bootstrap5/bootstrap_get_started.php)
+> > > 2. [Classe Container](https://www.w3schools.com/bootstrap5/bootstrap_containers.php)
+> > > 3. [Taules](https://www.w3schools.com/bootstrap5/bootstrap_tables.php)
+> > > 4. [Llistes](https://www.w3schools.com/bootstrap5/bootstrap_list_groups.php)
+
+## Sessió 6 Posicionament Caixes (NO PER ARA :
 > > > 1. [Posicionament normal](https://uniwebsidad.com/libros/css/capitulo-5/posicionamiento-normal)
 > > > 2. [Posicionament relatiu(menys important)](https://uniwebsidad.com/libros/css/capitulo-5/posicionamiento-relativo)
 > > > 3. [Posicionament absolut](https://uniwebsidad.com/libros/css/capitulo-5/posicionamiento-absoluto)
