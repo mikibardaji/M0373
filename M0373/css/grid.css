@@ -7,7 +7,7 @@
 .principal
 {
     display:grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 20% 20% 20% 20%;
     /*grid-template-rows: auto auto auto auto;*/
 
     border: 1px solid blue;
@@ -17,7 +17,9 @@
 {
     grid-column-start: 1;
     grid-column-end: 5;
-    background-color: aqua;
+   /* background-color: aqua;*/
+   background-image: ;
+
 }
 
 .cl1
