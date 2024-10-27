@@ -89,10 +89,15 @@ Guió de tots els aspectes que anem explicant a classe.
 > > > 4. [Llistes](https://www.w3schools.com/bootstrap5/bootstrap_list_groups.php)
 
 
-> ### Sesssió Boostrap algunes propietats
+## Sesssió Boostrap algunes propietats
+> ### Algunes propietats
 > > > 1.[Border](https://www.w3schools.com/bootstrap5/bootstrap_utilities.php)
 > > > 2.[Display](https://getbootstrap.com/docs/5.3/utilities/display/)
 > > > 3.[Spacing](https://getbootstrap.com/docs/5.3/utilities/spacing/)
+
+>  ### Paginació boostrap
+> >  >  1.[Columns](https://getbootstrap.com/docs/5.3/layout/columns/)
+> >  >  2.[Grid per tipus pantalles](https://www.w3schools.com/bootstrap5/bootstrap_grid_basic.php)
 
 ## Sessió 6 Posicionament Caixes (NO PER ARA :
 > > > 1. [Posicionament normal](https://uniwebsidad.com/libros/css/capitulo-5/posicionamiento-normal)
