@@ -83,7 +83,7 @@ Guió de tots els aspectes que anem explicant a classe.
 > > > 5. [Transicions](https://www.w3schools.com/css/css3_transitions.asp)
 
 > ### Boostrap
-> > > 1. [Introduccio](https://www.w3schools.com/bootstrap5/bootstrap_get_started.php)
+> > > 1. [Introduccio](https://www.w3schools.com/bootstrap5/bootstrap_get_started.php) 
 > > > 2. [Classe Container](https://www.w3schools.com/bootstrap5/bootstrap_containers.php)
 > > > 3. [Taules](https://www.w3schools.com/bootstrap5/bootstrap_tables.php)
 > > > 4. [Llistes](https://www.w3schools.com/bootstrap5/bootstrap_list_groups.php)
@@ -92,7 +92,9 @@ Guió de tots els aspectes que anem explicant a classe.
 ## Sesssió Boostrap algunes propietats
 > ### Algunes propietats
 > > > 1.[Border](https://www.w3schools.com/bootstrap5/bootstrap_utilities.php)
+> > > 
 > > > 2.[Display](https://getbootstrap.com/docs/5.3/utilities/display/)
+> > > 
 > > > 3.[Spacing](https://getbootstrap.com/docs/5.3/utilities/spacing/)
 
 >  ### Paginació boostrap
