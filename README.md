@@ -111,5 +111,6 @@ Sessions de Javascript.
 > >  > 4. [Tipus de dades javascript](https://www.w3schools.com/js/js_datatypes.asp)
 > >  > 5. [Declaració de funcions](https://www.w3schools.com/js/js_functions.asp)
 > >  > 6. [Objectes](https://www.w3schools.com/js/js_objects.asp)
+> >  > 7. [Arrays](https://www.w3schools.com/js/js_arrays.asp)
 
 
