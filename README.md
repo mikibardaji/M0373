@@ -1,7 +1,7 @@
 # M0373
 Guió A1 Modul 373 Llenguatge Marques
 
-# M08UF5 - HTML i CSS
+# A1 - HTML i CSS
 Guió de tots els aspectes que anem explicant a classe.
 
 ## Sessió 1 HTML, Llistes:
@@ -102,12 +102,14 @@ Guió de tots els aspectes que anem explicant a classe.
 
 > >  >  2.[Grid per tipus pantalles](https://www.w3schools.com/bootstrap5/bootstrap_grid_basic.php)
 
-## Sessió 6 Posicionament Caixes (NO PER ARA :
-> > > 1. [Posicionament normal](https://uniwebsidad.com/libros/css/capitulo-5/posicionamiento-normal)
-> > > 2. [Posicionament relatiu(menys important)](https://uniwebsidad.com/libros/css/capitulo-5/posicionamiento-relativo)
-> > > 3. [Posicionament absolut](https://uniwebsidad.com/libros/css/capitulo-5/posicionamiento-absoluto)
-> > > > * [Posicionament absolut W3Schools](https://www.w3schools.com/css/css_positioning.asp)
-> > > 4. [Posicionament flotant](https://uniwebsidad.com/libros/css/capitulo-5/posicionamiento-flotante)
-> > > > * [Posicionament float W3Schools](https://www.w3schools.com/css/css_float.asp)
-> > > 5. [Posicionament grid-layout](https://www.w3schools.com/css/css_grid.asp)
+# A1 - JavaScript
+Sessions de Javascript.
+> ### Introducció Javascript
+> >  > 1. [Declaració JavaScript dins document HTML](https://www.w3schools.com/js/js_whereto.asp)
+> >  > 2. [Sortides resultats](https://www.w3schools.com/js/js_output.asp)
+> >  > 3. [Declaració de variables](https://www.w3schools.com/js/js_statements.asp)
+> >  > 4. [Tipus de dades javascript](https://www.w3schools.com/js/js_datatypes.asp)
+> >  > 5. [Declaració de funcions](https://www.w3schools.com/js/js_functions.asp)
+> >  > 6. [Objectes](https://www.w3schools.com/js/js_objects.asp)
+
 
