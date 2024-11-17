@@ -16,7 +16,7 @@ Sessions de Javascript.
 
 ### getElementById
 
-Funció que selecciona un element del document, el que coincideixi amb el id.
+Funció que selecciona un element del document, el que coincideixi amb el id. [getElementById teoria](https://www.w3schools.com/jsref/met_document_getelementbyid.asp)
 #### Practica Guiada -> Al [Ex1GetElementByID1.html](https://github.com/mikibardaji/M0373/blob/main/js/Ex1GetElementByID1.html) tenim una llista amb 4 items.
   1. Posar al tercer element un id, de nom *special*
   2. A la part de script, crear una variable que apunti a aquest element.
@@ -32,7 +32,7 @@ Podeu comentar el codi que vulgueu dels passos anteriors.
 
 ### querySelectorAll
 
-Serveix per seleccionar tots els elements inclosos a la funció.
+Serveix per seleccionar tots els elements inclosos a la funció. [querySelectorAll teoria](https://www.w3schools.com/jsref/met_document_queryselectorall.asp)
 
 #### Practica Guiada -> [Ex2QuerySelectorAll](https://github.com/mikibardaji/M0373/blob/main/js/Ex2QuerySelector.html)
   1. Seleccionar tots els elements li del document en una variable.
@@ -49,7 +49,7 @@ Serveix per seleccionar tots els elements inclosos a la funció.
 
 ### querySelector
 
-Selecciona el primer element que compleixi el criteri.
+Selecciona el primer element que compleixi el criteri. [querySelector teoria](https://www.w3schools.com/jsref/met_document_queryselector.asp)
 
 #### Passos sense el profesor -> [Ex3QuerySelector.html](https://github.com/mikibardaji/M0373/blob/main/js/Ex3QuerySelector.html)
 
@@ -62,18 +62,19 @@ Selecciona el primer element que compleixi el criteri.
 
 ### innerHTML
 
-Per poder canviar  el contingut de dins del element HTML, per un altre codi HTML
+Per poder canviar  el contingut de dins del element HTML, per un altre codi HTML  [innerHTML teoria](https://www.w3schools.com/jsref/prop_html_innerhtml.asp)
+
   1.Seleccionar el element inner amb getElementById.
   2.Canviar-li el text per innerHTML "He canviat el text <b> negreta </b> "
 
 ### outerHTML
-Per poder canviar  el element HTML
+Per poder canviar  el element HTML. [outerHTML teoria](https://www.w3schools.com/jsref/prop_html_outerhtml.asp)
   1.Seleccionar el element outer amb getElementById.
   2.Canviar-lo deixar de ser parragraf i fer una llista no ordenada amb 2 items
       <ul><li>Item 1</li><li>Item 2</li></ul>
 
 ### innerText
-Canviar el contingut de dins del element HTML, per texte pla.
+Canviar el contingut de dins del element HTML, per texte pla. [innerText teoria](https://www.w3schools.com/jsref/prop_node_innertext.asp)
   1. Seleccionar el element text amb getElementById.
   2. Posar a la propiedad innerText el mateix text que al innerHTML
 
@@ -82,8 +83,8 @@ Canviar el contingut de dins del element HTML, per texte pla.
   4. Al mateix element li puc afegir un id. inner.id ="IdNuevo"
 
 ### Saber si te atributs
-  5. Pintar amb un alert si el element inner te atributs (hasAttributes())
-  6. Pintar per consola, el id del element inner (getAtribute("id"));
+  5. Pintar amb un alert si el element inner te atributs [hasAttributes()](https://www.w3schools.com/jsref/met_node_hasattributes.asp) 
+  6. Pintar per consola, el id del element inner [getAtribute("id");](https://www.w3schools.com/jsref/met_element_getattribute.asp)
   7. Ocultar el element outer.
 
 
