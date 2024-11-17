@@ -2,6 +2,7 @@
 
 ## getElementById
 
+Funció que selecciona un element del document, el que coincideixi amb el id.
 #### Practica Guiada -> Al Ex1GetElementByID1 tenim una llista amb 4 items.
   1. Posar al tercer element un id, de nom *special*
   2. A la part de script, crear una variable que apunti a aquest element.
@@ -14,3 +15,20 @@ Podeu comentar el codi que vulgueu dels passos anteriors.
   4. Canviar-li el tamany de lletra.
   5. Agafar un altre item i canviar-li a un color diferent.
   6. Agafar un tercer item i ficar-lo ocult amb la propietat hidden.
+
+## querySelectorAll
+
+Serveix per seleccionar tots els elements inclosos a la funció.
+
+#### Practica Guiada -> Ex2QuerySelectorAll
+  1. Seleccionar tots els elements li del document en una variable.
+  2. Utilizar console.log, per veure la variable.
+  3. Afegir-li un id a un dels li
+  4. Tornar a executar-ho i veiem les diferencies.
+  5. Recorrer el array, i canviar-li la font (For standar)
+  6. Recorrer el array, amb for (const item of XXXX)
+##### Passos sense el profesor 
+  7. Seleccionar tots els parragrafs.
+  8. Canviar-li el color a tots
+  9. Als parells canviar-li el color de fons.
+  10. Afegir 2 parragrafs més i provar que segueix funcionant.
