@@ -1,3 +1,13 @@
+Sessions de Javascript.
+> ### Introducció Javascript
+> >  > 1. [Declaració JavaScript dins document HTML](https://www.w3schools.com/js/js_whereto.asp)
+> >  > 2. [Sortides resultats](https://www.w3schools.com/js/js_output.asp)
+> >  > 3. [Declaració de variables](https://www.w3schools.com/js/js_statements.asp)
+> >  > 4. [Tipus de dades javascript](https://www.w3schools.com/js/js_datatypes.asp)
+> >  > 5. [Declaració de funcions](https://www.w3schools.com/js/js_functions.asp)
+> >  > 6. [Objectes](https://www.w3schools.com/js/js_objects.asp)
+> >  > 7. [Arrays](https://www.w3schools.com/js/js_arrays.asp)
+
 # EXERCICIS EXEMPLES
 
 ## Selecció elements
