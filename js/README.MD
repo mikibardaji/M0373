@@ -8,6 +8,8 @@ Sessions de Javascript.
 > >  > 6. [Objectes](https://www.w3schools.com/js/js_objects.asp)
 > >  > 7. [Arrays](https://www.w3schools.com/js/js_arrays.asp)
 
+### [PRESENTACIÓ JAVASCRIPT](https://docs.google.com/presentation/d/1RytX2_Asf3xn5Le2XBzWdX69Wx8ZuiWNhfrWFZqh5n4/edit?usp=sharing)
+
 # EXERCICIS EXEMPLES
 
 ## Selecció elements
@@ -83,3 +85,8 @@ Canviar el contingut de dins del element HTML, per texte pla.
   5. Pintar amb un alert si el element inner te atributs (hasAttributes())
   6. Pintar per consola, el id del element inner (getAtribute("id"));
   7. Ocultar el element outer.
+
+
+### Exercicis per casa
+
+[Casa](https://docs.google.com/document/d/1lQx2n_pvOcQEtJ_pA2IESeS1O0paxFsIs6TCocuJogE/edit?usp=sharing)
