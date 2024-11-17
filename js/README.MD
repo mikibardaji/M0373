@@ -34,7 +34,7 @@ Podeu comentar el codi que vulgueu dels passos anteriors.
 
 Serveix per seleccionar tots els elements inclosos a la funció.
 
-#### Practica Guiada -> Ex2QuerySelectorAll
+#### Practica Guiada -> [Ex2QuerySelectorAll](https://github.com/mikibardaji/M0373/blob/main/js/Ex2QuerySelector.html)
   1. Seleccionar tots els elements li del document en una variable.
   2. Utilizar console.log, per veure la variable.
   3. Afegir-li un id a un dels li
@@ -51,14 +51,14 @@ Serveix per seleccionar tots els elements inclosos a la funció.
 
 Selecciona el primer element que compleixi el criteri.
 
-#### Passos sense el profesor -> Ex3QuerySelector.html
+#### Passos sense el profesor -> [Ex3QuerySelector.html](https://github.com/mikibardaji/M0373/blob/main/js/Ex3QuerySelector.html)
 
   1. Selecciona el primer element p i fica-la amb negreta (amb css es font-weight: bold;)
   2. Seleccionar el primer item de la llista i fica-la amb cursiva (amb css es font-style: italic;)
 
 ## Modificant propietats elements
 
-#### Practica Guiada -> Ex4ModifyElements.html
+#### Practica Guiada -> [Ex4ModifyElements.html](https://github.com/mikibardaji/M0373/blob/main/js/Ex4ModifyElements.html)
 
 ### innerHTML
 
