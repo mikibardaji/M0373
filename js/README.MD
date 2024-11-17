@@ -32,3 +32,12 @@ Serveix per seleccionar tots els elements inclosos a la funció.
   8. Canviar-li el color a tots
   9. Als parells canviar-li el color de fons.
   10. Afegir 2 parragrafs més i provar que segueix funcionant.
+
+## querySelector
+
+Selecciona el primer element que compleixi el criteri.
+
+####Passos sense el profesor -> Ex3QuerySelector.html
+
+  1. Selecciona el primer element p i fica-la amb negreta (amb css es font-weight: bold;)
+  2. Seleccionar el primer item de la llista i fica-la amb cursiva (amb css es font-style: italic;)
