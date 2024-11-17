@@ -10,6 +10,7 @@
   5. Si esta a null, saltar un alert avisant.
 ##### Passos sense el profesor 
 Podeu comentar el codi que vulgueu dels passos anteriors.
+
   4. Canviar-li el tamany de lletra.
   5. Agafar un altre item i canviar-li a un color diferent.
   6. Agafar un tercer item i ficar-lo ocult amb la propietat hidden.
