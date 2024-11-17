@@ -1,6 +1,8 @@
 # EXERCICIS EXEMPLES
 
-## getElementById
+## Selecció elements
+
+### getElementById
 
 Funció que selecciona un element del document, el que coincideixi amb el id.
 #### Practica Guiada -> Al Ex1GetElementByID1 tenim una llista amb 4 items.
@@ -16,7 +18,7 @@ Podeu comentar el codi que vulgueu dels passos anteriors.
   5. Agafar un altre item i canviar-li a un color diferent.
   6. Agafar un tercer item i ficar-lo ocult amb la propietat hidden.
 
-## querySelectorAll
+### querySelectorAll
 
 Serveix per seleccionar tots els elements inclosos a la funció.
 
@@ -33,11 +35,41 @@ Serveix per seleccionar tots els elements inclosos a la funció.
   9. Als parells canviar-li el color de fons.
   10. Afegir 2 parragrafs més i provar que segueix funcionant.
 
-## querySelector
+### querySelector
 
 Selecciona el primer element que compleixi el criteri.
 
-####Passos sense el profesor -> Ex3QuerySelector.html
+#### Passos sense el profesor -> Ex3QuerySelector.html
 
   1. Selecciona el primer element p i fica-la amb negreta (amb css es font-weight: bold;)
   2. Seleccionar el primer item de la llista i fica-la amb cursiva (amb css es font-style: italic;)
+
+## Modificant propietats elements
+
+#### Practica Guiada -> Ex4ModifyElements.html
+
+### innerHTML
+
+Per poder canviar  el contingut de dins del element HTML, per un altre codi HTML
+  1.Seleccionar el element inner amb getElementById.
+  2.Canviar-li el text per innerHTML "He canviat el text <b> negreta </b> "
+
+### outerHTML
+Per poder canviar  el element HTML
+  1.Seleccionar el element outer amb getElementById.
+  2.Canviar-lo deixar de ser parragraf i fer una llista no ordenada amb 2 items
+      <ul><li>Item 1</li><li>Item 2</li></ul>
+
+### innerText
+Canviar el contingut de dins del element HTML, per texte pla.
+  1. Seleccionar el element text amb getElementById.
+  2. Posar a la propiedad innerText el mateix text que al innerHTML
+
+**Altres modificacions**
+  3. Al element inner afegir-li un text que pasa quant fiques el ratolí damunt, amb la propietat title.
+  4. Al mateix element li puc afegir un id. inner.id ="IdNuevo"
+
+### Saber si te atributs
+  5. Pintar amb un alert si el element inner te atributs (hasAttributes())
+  6. Pintar per consola, el id del element inner (getAtribute("id"));
+  7. Ocultar el element outer.
