@@ -16,7 +16,7 @@ Sessions de Javascript.
 
 ### getElementById
 
-Funció que selecciona un element del document, el que coincideixi amb el id. [getElementById teoria](https://www.w3schools.com/jsref/met_document_getelementbyid.asp)
+Funció que selecciona un element del document, el que coincideixi amb el id. [getElementById teoria](https://www.w3schools.com/jsref/met_document_getelementbyid.asp){:target="_blank"}
 #### Practica Guiada -> Al [Ex1GetElementByID1.html](https://github.com/mikibardaji/M0373/blob/main/js/Ex1GetElementByID1.html) tenim una llista amb 4 items.
   1. Posar al tercer element un id, de nom *special*
   2. A la part de script, crear una variable que apunti a aquest element.
