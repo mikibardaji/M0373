@@ -1,4 +1,8 @@
 Sessions de Javascript.
+
+### [PRESENTACIÓ JAVASCRIPT](https://docs.google.com/presentation/d/1RytX2_Asf3xn5Le2XBzWdX69Wx8ZuiWNhfrWFZqh5n4/edit?usp=sharing)
+
+
 > ### Introducció Javascript
 > >  > 1. [Declaració JavaScript dins document HTML](https://www.w3schools.com/js/js_whereto.asp)
 > >  > 2. [Sortides resultats](https://www.w3schools.com/js/js_output.asp)
@@ -7,8 +11,6 @@ Sessions de Javascript.
 > >  > 5. [Declaració de funcions](https://www.w3schools.com/js/js_functions.asp)
 > >  > 6. [Objectes](https://www.w3schools.com/js/js_objects.asp)
 > >  > 7. [Arrays](https://www.w3schools.com/js/js_arrays.asp)
-
-### [PRESENTACIÓ JAVASCRIPT](https://docs.google.com/presentation/d/1RytX2_Asf3xn5Le2XBzWdX69Wx8ZuiWNhfrWFZqh5n4/edit?usp=sharing)
 
 # EXERCICIS EXEMPLES
 
