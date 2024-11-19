@@ -67,6 +67,7 @@ Selecciona el primer element que compleixi el criteri. [querySelector teoria](ht
 Per poder canviar  el contingut de dins del element HTML, per un altre codi HTML  [innerHTML teoria](https://www.w3schools.com/jsref/prop_html_innerhtml.asp)
 
   1.Seleccionar el element inner amb getElementById.
+
   2.Canviar-li el text per innerHTML "He canviat el text <b> negreta </b> "
 
 ### outerHTML
