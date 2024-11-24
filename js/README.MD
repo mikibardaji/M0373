@@ -94,3 +94,33 @@ Canviar el contingut de dins del element HTML, per texte pla. [innerText teoria]
 ### Exercicis per casa
 
 [Casa](https://docs.google.com/document/d/1lQx2n_pvOcQEtJ_pA2IESeS1O0paxFsIs6TCocuJogE/edit?usp=sharing)
+
+
+## Events
+
+[Pagines 26 a 33 presentació](https://docs.google.com/presentation/d/1RytX2_Asf3xn5Le2XBzWdX69Wx8ZuiWNhfrWFZqh5n4/edit?usp=sharing) 
+
+### Capturant Events
+
+#### Practica Guiada -> [ExEventsCaptur](https://github.com/mikibardaji/M0373/blob/main/js/ExEventsCaptur.html)
+
+##### Captura inline
+  1. Crear funció **changeColor** amb 2 accions:
+    a. Escriure per consola o per alert, "funció capturada"
+    b. Canviar el color de fons al event.
+  2. Al primer div captura l'event amb la targe onclick
+
+##### Captura amb listener
+  3. Crear una funció changeColorFontBackground amb 3 accions:
+    a. Escriure per consola o per alert, "funció capturada listener"
+    b. Canviar el color de fons al event.
+    c. Canviar el color de la lletra.
+  4. Capturar element amb script listener
+  5. Afegir-li addEventListener, al element.
+
+##### Borrar amb listener
+  6. Crear la funció showMousePosition
+     a. Capturar la posició X e Y del ratoli.
+     b. Escriure posició elements html.
+  7. Afegir listener a tot el html, la funció.
+  8. Ficar click al element html, per borrar el listener del punt 7.
