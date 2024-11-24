@@ -82,6 +82,7 @@ Canviar el contingut de dins del element HTML, per texte pla. [innerText teoria]
   2. Posar a la propiedad innerText el mateix text que al innerHTML
 
 **Altres modificacions**
+
   3. Al element inner afegir-li un text que pasa quant fiques el ratolí damunt, amb la propietat title.
   4. Al mateix element li puc afegir un id. inner.id ="IdNuevo"
 
