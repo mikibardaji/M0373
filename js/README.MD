@@ -103,7 +103,7 @@ Canviar el contingut de dins del element HTML, per texte pla. [innerText teoria]
 
 ### Capturant Events
 
-#### Practica Guiada -> [ExEventsCaptur](https://github.com/mikibardaji/M0373/blob/main/js/ExEventsCaptur.html)
+#### Practica Guiada -> [Ex5EventsCaptur](https://github.com/mikibardaji/M0373/blob/main/js/Ex5EventsCaptur.html)
 
 ##### Captura inline
   1. Crear funció **changeColor** amb 2 accions:
