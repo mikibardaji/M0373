@@ -107,12 +107,14 @@ Canviar el contingut de dins del element HTML, per texte pla. [innerText teoria]
 
 ##### Captura inline
   1. Crear funció **changeColor** amb 2 accions:
+
     a. Escriure per consola o per alert, "funció capturada"
     b. Canviar el color de fons al event.
   2. Al primer div captura l'event amb la targe onclick
 
 ##### Captura amb listener
   3. Crear una funció changeColorFontBackground amb 3 accions:
+
     a. Escriure per consola o per alert, "funció capturada listener"
     b. Canviar el color de fons al event.
     c. Canviar el color de la lletra.
