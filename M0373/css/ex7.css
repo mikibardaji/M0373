@@ -1,0 +1,12 @@
+/* Estils base per a les imatges */
+img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+/* Estils específics per a la classe A */
+.A {
+    /* Aquí es pot afegir algun estil específic per a les imatges de la classe A si es vol */
+}
+
