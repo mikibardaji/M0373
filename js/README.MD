@@ -131,3 +131,8 @@ Canviar el contingut de dins del element HTML, per texte pla. [innerText teoria]
 ### Exercicis per casa
 
 [Casa](https://docs.google.com/document/d/1KGqJ8hJJLwAn_us4zwjj7JDDqCQfRVSAnfj0j30bmUo/edit?usp=sharing)
+
+### Exercicis per casa pel dia 10/12
+
+[Casa 2](https://docs.google.com/document/d/1zWer2HqNvR0rzVO0keIpHjfrm2vkIC1j3IQ2CroORM8/edit?usp=sharing)
+
