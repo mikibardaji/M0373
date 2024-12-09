@@ -149,3 +149,15 @@ Al igual que boostrap amb CSS hi ha elements especifics Javascript i boostrap ta
   7. [Toast](https://getbootstrap.com/docs/5.3/components/toasts/)
 
 N'hi ha més pero amb aquests es suficient.
+
+## Arrays
+
+  a. [Arrays](https://www.w3schools.com/js/js_arrays.asp)
+  b. [Metodes Arrays: length, toString, at, join, ....](https://www.w3schools.com/js/js_array_methods.asp)
+  c. [Busqueda](https://www.w3schools.com/js/js_array_search.asp)
+  d. [Metodes interessants](https://dev.to/gastondanielsen/25-metodos-de-arrays-en-javascript-que-todo-desarrollador-debe-conocer-4a2d)
+
+## Objectes
+
+  a.[Objectes](https://www.w3schools.com/js/js_objects.asp)
+  b.[Propietats Objectes](https://www.w3schools.com/js/js_object_property.asp)
