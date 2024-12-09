@@ -136,6 +136,11 @@ Canviar el contingut de dins del element HTML, per texte pla. [innerText teoria]
 
 [Casa 2](https://docs.google.com/document/d/1zWer2HqNvR0rzVO0keIpHjfrm2vkIC1j3IQ2CroORM8/edit?usp=sharing)
 
+##### Afegir i treure clase
+
+  [classList add/remove](https://desarrolloweb.com/faq/como-anadir-y-quitar-una-clase-css-de-un-elemento-mediante-javascript)
+
+
 ## Boostrap JS
 
 Al igual que boostrap amb CSS hi ha elements especifics Javascript i boostrap també hi ha elements creats per fer més atractives les pagines web.
