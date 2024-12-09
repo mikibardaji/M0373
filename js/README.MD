@@ -136,3 +136,16 @@ Canviar el contingut de dins del element HTML, per texte pla. [innerText teoria]
 
 [Casa 2](https://docs.google.com/document/d/1zWer2HqNvR0rzVO0keIpHjfrm2vkIC1j3IQ2CroORM8/edit?usp=sharing)
 
+## Boostrap JS
+
+Al igual que boostrap amb CSS hi ha elements especifics Javascript i boostrap també hi ha elements creats per fer més atractives les pagines web.
+
+  1. [Carrousel](https://getbootstrap.com/docs/5.3/components/carousel/)
+  2. [Collapse](https://getbootstrap.com/docs/5.3/components/collapse/)
+  3. [Dropdown](https://getbootstrap.com/docs/5.3/components/dropdowns/)
+  4. [Modal](https://getbootstrap.com/docs/5.3/components/modal/)
+  5. [Barra navegacion](https://getbootstrap.com/docs/5.3/components/navbar/)
+  6. [ScrollSpy](https://getbootstrap.com/docs/5.3/components/scrollspy/)
+  7. [Toast](https://getbootstrap.com/docs/5.3/components/toasts/)
+
+N'hi ha més pero amb aquests es suficient.
