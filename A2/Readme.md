@@ -13,9 +13,17 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 ```
 
-# Instal.lar una aplicació
+## Instal.lar una aplicació
 Per exemple podem instal.lar git en el nostre espai d'usuari:
 
 ```sh
 > scoop install git
 ```
+
+## Buscar una aplicació
+
+A la pàgina web de Scoop.sh pots buscar paquets, per exemple Python:
+
+![image](https://github.com/user-attachments/assets/606905dc-9241-460f-be33-4decf30c8bfe)
+
+
