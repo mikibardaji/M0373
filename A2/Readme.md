@@ -1,7 +1,7 @@
 # Sessions A2  Documents per intercanvi d’informació
 
 ## Introducció
-Per aquesta Activitat, instal·larem (typescript)[https://es.wikipedia.org/wiki/TypeScript).
+Per aquesta Activitat, instal·larem [typescript](https://es.wikipedia.org/wiki/TypeScript).
 
 Per això necessitarem instal·lar vari software... 
 
@@ -25,7 +25,7 @@ Per exemple podem instal.lar git en el nostre espai d'usuari:
 
 ### Buscar una aplicació
 
-A la pàgina web de (Scoop.sh)[https://scoop.sh/] pots buscar paquets, per exemple Python:
+A la pàgina web de [Scoop.sh](https://scoop.sh/) pots buscar paquets, per exemple Python:
 
 ![image](https://github.com/user-attachments/assets/606905dc-9241-460f-be33-4decf30c8bfe)
 
