@@ -1,9 +1,11 @@
 # Sessions A2  Documents per intercanvi d’informació
 
 ## Introducció
-Per aquesta Activitat, instal·larem typescript.
+Per aquesta Activitat, instal·larem (typescript)[https://es.wikipedia.org/wiki/TypeScript).
 
-Scoop.sh és un gestor d'aplicacions escrit en Powershell que et permet instal.lar aplicacions a nivell d'usuari sense permisos d'administrador.
+Per això necessitarem instal·lar vari software... 
+
+· Scoop.sh és un gestor d'aplicacions escrit en Powershell que et permet instal.lar aplicacions a nivell d'usuari sense permisos d'administrador.
 
 Està pensant sobretot per informàtics.
 
@@ -14,7 +16,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 ```
 
-### Instal.lar una aplicació
+### Instal.lar una aplicació amb scoop
 Per exemple podem instal.lar git en el nostre espai d'usuari:
 
 ```sh
@@ -23,7 +25,7 @@ Per exemple podem instal.lar git en el nostre espai d'usuari:
 
 ### Buscar una aplicació
 
-A la pàgina web de Scoop.sh pots buscar paquets, per exemple Python:
+A la pàgina web de (Scoop.sh)[https://scoop.sh/] pots buscar paquets, per exemple Python:
 
 ![image](https://github.com/user-attachments/assets/606905dc-9241-460f-be33-4decf30c8bfe)
 
