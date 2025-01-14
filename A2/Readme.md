@@ -20,7 +20,7 @@ Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 Per exemple podem instal.lar git en el nostre espai d'usuari:
 
 ```sh
-> scoop install git
+scoop install git
 ```
 
 ### Buscar una aplicació
