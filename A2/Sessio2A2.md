@@ -19,5 +19,5 @@ Recordar dos operadors diferents a Java
 
 *Exponent i divisio amb residu
 
-![imatge](https://github.com/user-attachments/assets/c6ef874d-70e5-4269-8432-6ec40f770963)
+![imatge](https://github.com/mikibardaji/M0373/blob/main/A2/A2/imatges/exponente.PNG)
 
