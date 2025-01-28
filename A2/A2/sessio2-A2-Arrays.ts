@@ -52,6 +52,6 @@ for(const numeroSingular of list)
     sumaTotal += numeroSingular;
 }
 console.log(sumaTotal);
-//funcio reduce
+//funcio reduce tots els valors els redueix a un sol calcul
 const sumaTotalReduce = list.reduce((acc, valor) => acc+valor,0);
 console.log("reduce->" + sumaTotalReduce);
