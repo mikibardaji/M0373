@@ -1,3 +1,5 @@
+//Teoria d'aquest codi => https://xtec.dev/typescript/sequence/
+
 let list: number[] = [6, 8, 11];
 console.log(list);
 list[1] = 13;
