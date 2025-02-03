@@ -1,5 +1,6 @@
 //Teoria d'aquest codi => https://xtec.dev/typescript/sequence/
 
+//TREBALL AMB ARRAYS
 let list: number[] = [6, 8, 11];
 console.log(list);
 list[1] = 13;
@@ -8,18 +9,24 @@ console.log("Posicio 2 conte " + list[2]);
 console.log("Posicio 5 conte " + list[5]);
 list[1] = 15;
 //console.log(list);
+//AFEGIR ELEMENTS
 list.push(25);
 //console.log("Push afegit");
 //console.log("Amb el push he afegit un numero " + list);
+//ESBORRAR ELEMENT
 list.pop();
 //console.log("Pop treu el ultim de la llista");
 //console.log(list);
 
+//MOSTRAR TOTES LES POSICIONS DEL ARRAY
 for(const numero of list)
 {
     console.log(numero);
 }
-/* funcio map forma manual*/
+/* funcio map forma manual
+LA FUNCIÓ MAP SERVEIX PER MODIFICAR ELS VALORS D'UN ARRAY A PARTIR D'UNA OPERACIÓ I PASSAR-LOS A UN ALTRE.*/
+
+//Funció MAP de manera manual
 let dobles: number[]=[];
 for(const numero of list)
     {
@@ -28,12 +35,15 @@ for(const numero of list)
 
 console.log(dobles);
 
+//Funció MAP 
 let doblesmap: number[]=[];
 doblesmap = list.map(x => x*2);
 console.log("amb la funció map" + doblesmap);
 
-//filter seleccionar alguns valors
+/* funció filter 
+serveix per filtrar dades a partir d'un criteri*/ 
 let seleccio: number[]=[];
+//Funció FILTER de manera manual
 for(const numeroX of doblesmap)
 {
     if (numeroX> 15)
@@ -43,10 +53,14 @@ for(const numeroX of doblesmap)
 }
 console.log(seleccio);
 
+//Funció FILTER 
 let seleccioFilter: number[]=[];
 seleccioFilter = doblesmap.filter(valor => valor>15);
 console.log("funcio filter " + seleccioFilter);
-//reduce seleccionar tots els valors i realitzar un calcul
+
+
+/*FUNCIÓ REDUCE 
+seleccionar tots els valors i realitzar un calcul RETORNANT UN SOL VALOR*/
 console.log(list);
 let sumaTotal = 0;
 for(const numeroSingular of list)
@@ -54,6 +68,6 @@ for(const numeroSingular of list)
     sumaTotal += numeroSingular;
 }
 console.log(sumaTotal);
-//funcio reduce tots els valors els redueix a un sol calcul
+//funcio REDUCE tots els valors els redueix a un sol calcul
 const sumaTotalReduce = list.reduce((acc, valor) => acc+valor,0);
 console.log("reduce->" + sumaTotalReduce);
