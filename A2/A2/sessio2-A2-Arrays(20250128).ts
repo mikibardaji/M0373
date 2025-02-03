@@ -1,5 +1,5 @@
 //Teoria d'aquest codi => https://xtec.dev/typescript/sequence/
-
+// dia 28/01/2025
 //TREBALL AMB ARRAYS
 let list: number[] = [6, 8, 11];
 console.log(list);
