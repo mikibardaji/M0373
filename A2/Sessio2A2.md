@@ -6,8 +6,8 @@ Ens basem amb la [wiki oficial de l'assignatura](https://xtec.dev/typescript/seq
 
 El codi que hem generat a la classe es troba en aquests dos fitxers:
 
-    - [S2-A2.ts](https://github.com/mikibardaji/M0373/blob/main/A2/A2/S2-A2.ts)
-    - [S2-A2-20250128-Arrays.ts](https://github.com/mikibardaji/M0373/blob/main/A2/A2/S2-A2-20250128-Arrays.ts)
+- [S2-A2.ts](https://github.com/mikibardaji/M0373/blob/main/A2/A2/S2-A2.ts)
+- [S2-A2-20250128-Arrays.ts](https://github.com/mikibardaji/M0373/blob/main/A2/A2/S2-A2-20250128-Arrays.ts)
 
 ## Els caracters backslash amb typeScript
 
