@@ -1,5 +1,8 @@
 # Sessions A2  Diferents característiques TypeScript
 
+### Teoria WIKI
+
+Ens basem amb la [wiki oficial de l'assignatura](https://xtec.dev/typescript/sequence/)
 
 ## Els caracters backslash amb typeScript
 
