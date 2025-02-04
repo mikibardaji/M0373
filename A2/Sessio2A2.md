@@ -4,6 +4,9 @@
 
 Ens basem amb la [wiki oficial de l'assignatura](https://xtec.dev/typescript/sequence/)
 
+El codi que hem generat a la classe es troba en aquests dos fitxers
+    · [S2-A2.ts](https://github.com/mikibardaji/M0373/blob/main/A2/A2/S2-A2.ts)
+
 ## Els caracters backslash amb typeScript
 
 Els backticks són cometes de “funcionalitat estesa”. Ens permet incrustar variables i expressions en una string tancant-les a ${...}, per exemple:
