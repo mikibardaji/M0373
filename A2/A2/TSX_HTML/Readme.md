@@ -5,7 +5,7 @@ Executa la comanda
 bun add -g typescript
 ```
 
-Un cop instal·lat et comentarà que ho afegeixis al Path del sistema, com nosaltres no tenim permissos d'administrador ho afegirem al path de powershell per no tenir que ficar-ho cada cop que obrim.
+Un cop instal·lat et comentarà que ho afegeixis al Path del sistema, com nosaltres no tenim permisos d'administrador ho afegirem al path de powershell per no haver de ficar-ho cada cop que obrim.
 
 - Primer pas
 ```sh
@@ -24,7 +24,7 @@ echo $env:PATH
 
 Hauria de sortir la teva ruta al final del path.
 
-Llavors ja podem compilar el element tsx que sigui, que el convertirà amb .js
+Llavors ja podem compilar l'element tsx que sigui, que el convertirà amb .js
 
 ```sh 
 tsc script.ts
