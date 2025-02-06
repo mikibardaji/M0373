@@ -29,3 +29,5 @@ Llavors ja podem compilar l'element tsx que sigui, que el convertirà amb .js
 ```sh 
 tsc script.ts
 ```
+
+Per provar baixa els dos fitxers [Pokemon.html](https://github.com/mikibardaji/M0373/blob/main/A2/A2/TSX_HTML/pokemon.html) i el fitxer [script.tsx](https://github.com/mikibardaji/M0373/blob/main/A2/A2/TSX_HTML/script.tsx)
