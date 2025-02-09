@@ -78,7 +78,7 @@ const gos: Animal = {
 gos.ferSoroll();
 ```
 
-📌 ** Amb interface, fem que qualsevol objecte que sigui Animal tindrà un mètode ferSoroll().
+📌 **Amb interface, fem que qualsevol objecte que sigui Animal tindrà un mètode ferSoroll().
 
 ***
 
@@ -92,8 +92,98 @@ Crea una `interface` anomenada `Dispositiu` amb propietats (`nom`, `marca`, `pre
 
 ***
 
+### 4. Arrays d'objectes   
+Els arrays d'objectes són fonamentals per gestionar col·leccions de dades.  
 
+#### Exemple amb `type`  
+
+```typescript
+type Alumne = {
+  nom: string;
+  edat: number;
+};
+
+const alumnes: Alumne[] = [
+  { nom: "Joan", edat: 20 },
+  { nom: "Anna", edat: 22 },
+  { nom: "Pere", edat: 19 }
+];
+
+console.log(alumnes[1].nom); // Anna
+```
+
+📌 **Aquí treballem amb una llista d’alumnes.
+
+✅ Exercici 3:
+Crea un array d’objectes Cotxe[] i omple’l amb tres cotxes. Mostra’n el segon per consola.
 
 El codi que hem generat a la classe es troba en aquests dos fitxers:
+
+### 5. Creació de classes en TypeScript (20 min)  
+Les **classes** ens permeten generar múltiples objectes amb la mateixa estructura.  
+
+#### Exemple de classe bàsica  
+
+```typescript
+class Llibre {
+  constructor(public titol: string, public autor: string, public anyPublicacio: number) {}
+
+  descripcio(): string {
+    return `${this.titol}, escrit per ${this.autor} l'any ${this.anyPublicacio}.`;
+  }
+}
+
+const llibre1 = new Llibre("1984", "George Orwell", 1949);
+console.log(llibre1.descripcio());
+```
+
+📌 **Explicació:**  
+- `constructor` inicialitza les propietats.  
+- `descripcio()` retorna informació del llibre.  
+
+### 6. Exercici Final: Botiga de Productes (30 min)  
+**Objectiu:** Integrar objectes, arrays i mètodes en un cas real.  
+
+#### 1️⃣ Definir una interfície `Producte`  
+
+```typescript
+interface Producte {
+  nom: string;
+  preu: number;
+  stock: number;
+}
+```
+
+### 2️⃣ Crear una classe `Botiga` amb un array de `Producte[]`  
+
+```typescript
+class Botiga {
+  private productes: Producte[] = [];
+
+  afegirProducte(producte: Producte) {
+    this.productes.push(producte);
+  }
+
+  mostrarProductes() {
+    this.productes.forEach((p) => console.log(`${p.nom}: ${p.preu}€ (Stock: ${p.stock})`));
+  }
+}
+```
+
+### 3️⃣ Afegir productes i mostrar-los  
+
+```typescript
+const botiga = new Botiga();
+botiga.afegirProducte({ nom: "Mòbil", preu: 400, stock: 10 });
+botiga.afegirProducte({ nom: "Portàtil", preu: 1200, stock: 5 });
+
+botiga.mostrarProductes();
+```
+
+✅ **Exercici 5:**  
+Afegeix més productes a la botiga i implementa un mètode que redueixi el `stock` quan es compri un producte.
+
+Un cop vist això, amb un codi basic veure'm com compilar i mostrar el resultat amb una pagina html dins una taula.
+
 
 - [Operadors i Varis.ts](https://github.com/mikibardaji/M0373/blob/main/A2/A2/S2-A2.ts)
