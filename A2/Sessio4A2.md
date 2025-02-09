@@ -76,7 +76,7 @@ const gos: Animal = {
 };
 
 gos.ferSoroll();
-´´´
+```
 
 📌 ** Amb interface, fem que qualsevol objecte que sigui Animal tindrà un mètode ferSoroll().
 
