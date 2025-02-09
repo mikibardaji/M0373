@@ -58,6 +58,41 @@ const alumne: Persona = {
 
 📌 **Aquí hi ha definit una estructura de `Persona` i `Direccio` amb `type`, i el atribut de `direccio` és opcional.**  
 
+## Exemple amb `interface` (més estructurada, pensada per a objectes)  
+
+```typescript
+interface Animal {
+  nom: string;
+  especie: string;
+  ferSoroll(): void;
+}
+
+const gos: Animal = {
+  nom: "Rex",
+  especie: "Gos",
+  ferSoroll() {
+    console.log("Bup bup!");
+  }
+};
+
+gos.ferSoroll();
+´´´
+
+📌 ** Amb interface, fem que qualsevol objecte que sigui Animal tindrà un mètode ferSoroll().
+
+---
+
+# 3. Exercicis (10 min)  
+
+✅ **Exercici 1:**  
+Crea un `type` anomenat `Cotxe` amb propietats (`marca`, `model`, `any`) i declara un objecte.  
+
+✅ **Exercici 2:**  
+Crea una `interface` anomenada `Dispositiu` amb propietats (`nom`, `marca`, `preu`) i afegeix un mètode `descripcio()`. Implementa un objecte `portatil`.  
+
+---
+
+
 
 El codi que hem generat a la classe es troba en aquests dos fitxers:
 
