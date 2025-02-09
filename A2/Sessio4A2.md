@@ -5,6 +5,7 @@ Ens basem amb la [wiki objectes](https://xtec.dev/typescript/object/)
 
 
 # Objectiu  
+
 **Entendre com es defineixen i utilitzen els objectes en TypeScript.**  
 
 ## 1. Introducció als objectes en TypeScript (15 min)  
