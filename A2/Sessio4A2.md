@@ -24,6 +24,36 @@ Ens basem amb la [wiki objectes](https://xtec.dev/typescript/object/)
   - Quines propietats tenen els objectes.  
   - Quins tipus de dades s'esperen.  
 - Això millora la llegibilitat i redueix errors.  
+## 2. Definició d'objectes en TypeScript: `type` vs `interface` (30 min)  
+
+### 💡 Diferència clau:  
+- **`type`** es fa servir per a conjunts de dades més flexibles (pot combinar tipus).  
+- **`interface`** és més recomanada per definir objectes i estructures reutilitzables.  
+
+### Exemple amb `type` (més flexible, pot combinar tipus)  
+
+```typescript
+type Direccio = {
+  carrer: string;
+  ciutat: string;
+  codiPostal: number;
+};
+
+type Persona = {
+  nom: string;
+  edat: number;
+  direccio?: Direccio;
+};
+
+const alumne: Persona = {
+  nom: "Maria",
+  edat: 22,
+  direccio: {
+    carrer: "Carrer Major",
+    ciutat: "Barcelona",
+    codiPostal: 08001
+  }
+};
 
 
 El codi que hem generat a la classe es troba en aquests dos fitxers:
