@@ -54,6 +54,9 @@ const alumne: Persona = {
     codiPostal: 08001
   }
 };
+```
+
+📌 **Aquí hi ha definit una estructura de `Persona` i `Direccio` amb `type`, i el atribut de `direccio` és opcional.**  
 
 
 El codi que hem generat a la classe es troba en aquests dos fitxers:
