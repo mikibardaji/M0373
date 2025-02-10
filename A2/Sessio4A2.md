@@ -6,9 +6,9 @@ Ens basem amb la [wiki objectes](https://xtec.dev/typescript/object/)
 
 # Objectiu  
 
-**Entendre com es defineixen i utilitzen els objectes en TypeScript.**  
+**Com es defineixen i utilitzen els objectes en TypeScript.**  
 
-## 1. Introducció als objectes en TypeScript (15 min)  
+## 1. Introducció als objectes en TypeScript 
 ### Millores respecte a JavaScript  
 - **Tipatge estàtic vs. dinàmic**  
 - **Més seguretat i menys errors en temps d'execució**  
