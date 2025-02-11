@@ -3,7 +3,10 @@
 
 Ens basem amb la [wiki objectes](https://xtec.dev/typescript/object/)
 
+Correcció exercicis Casa:
 
+[Exercici Descomptes Preus](https://github.com/mikibardaji/M0373/blob/main/A2/A2/ExercicisCasaA2-1.ts)
+[Exercici Noms de 5 caracters](https://github.com/mikibardaji/M0373/blob/main/A2/A2/ExercicisCasaA2-2.ts)
 # Objectiu  
 
 **Com es defineixen i utilitzen els objectes en TypeScript.**  
