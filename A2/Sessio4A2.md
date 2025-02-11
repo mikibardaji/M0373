@@ -186,4 +186,4 @@ Afegeix més productes a la botiga i implementa un mètode que redueixi el `stoc
 Un cop vist això, amb un codi basic veure'm com [compilar i mostrar el resultat amb una pagina html dins una taula.](https://github.com/mikibardaji/M0373/tree/main/A2/A2/TSX_HTML#readme)
 
 
-- [Operadors i Varis.ts](https://github.com/mikibardaji/M0373/blob/main/A2/A2/S2-A2.ts)
+
