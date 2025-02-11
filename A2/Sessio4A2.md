@@ -140,7 +140,7 @@ console.log(llibre1.descripcio());
 - `constructor` inicialitza les propietats.  
 - `descripcio()` retorna informació del llibre.  
 
-### 6. Exercici Final: Botiga de Productes (30 min)  
+### 6. Exercici Final: Botiga de Productes  
 **Objectiu:** Integrar objectes, arrays i mètodes en un cas real.  
 
 #### 1️⃣ Definir una interfície `Producte`  
