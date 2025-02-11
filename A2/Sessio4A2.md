@@ -112,7 +112,6 @@ const alumnes: Alumne[] = [
 console.log(alumnes[1].nom); // Anna
 ```
 
-📌 **Aquí treballem amb una llista d’alumnes.
 
 ✅ Exercici 3:
 Crea un array d’objectes Cotxe[] i omple’l amb tres cotxes. Mostra’n el segon per consola.
