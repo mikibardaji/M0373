@@ -82,7 +82,7 @@ gos.ferSoroll();
 
 ***
 
-### 3. Exercicis (10 min)  
+### 3. Exercicis
 
 ✅ **Exercici 1:**  
 Crea un `type` anomenat `Cotxe` amb propietats (`marca`, `model`, `any`) i declara un objecte.  
