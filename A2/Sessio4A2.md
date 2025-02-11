@@ -24,7 +24,7 @@ Ens basem amb la [wiki objectes](https://xtec.dev/typescript/object/)
   - Quines propietats tenen els objectes.  
   - Quins tipus de dades s'esperen.  
 - Això millora la llegibilitat i redueix errors.  
-## 2. Definició d'objectes en TypeScript: `type` vs `interface` (30 min)  
+## 2. Definició d'objectes en TypeScript: `type` vs `interface`  
 
 ### 💡 Diferència clau:  
 - **`type`** es fa servir per a conjunts de dades més flexibles (pot combinar tipus).  
@@ -119,7 +119,7 @@ Crea un array d’objectes Cotxe[] i omple’l amb tres cotxes. Mostra’n el se
 
 El codi que hem generat a la classe es troba en aquests dos fitxers:
 
-### 5. Creació de classes en TypeScript (20 min)  
+### 5. Creació de classes en TypeScript 
 Les **classes** ens permeten generar múltiples objectes amb la mateixa estructura.  
 
 #### Exemple de classe bàsica  
