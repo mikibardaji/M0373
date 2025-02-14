@@ -25,19 +25,19 @@ Eels valors han de ser un dels tipus de dades següents:
 
 ```json
 {
-  "titol": "The Legend of Zelda: Breath of the Wild",
+  "titol": "The Legend of Zelda: Breath of the Wild", /*string*/
   "desenvolupador": "Nintendo",
-  "any_de_lliurament": 2017,
-  "es_multijugador": false,
-  "punts_critics": null,
-  "platformes_disponibles": ["Nintendo Switch", "Wii U"],
-  "valoracio": {
+  "any_de_lliurament": 2017, /*number*/
+  "es_multijugador": false, /boolea*/
+  "punts_critics": null, /*null*/
+  "platformes_disponibles": ["Nintendo Switch", "Wii U"], /*array*/
+  "valoracio": { /*objecte*/
     "grafics": 9.5,
     "jugabilitat": 10,
     "historia": 9,
     "so": 9.2
   },
-  "dlcs_disponibles": [
+  "dlcs_disponibles": [ /*array d'objectes*/
     {
       "nom": "The Master Trials",
       "preu": 19.99,
