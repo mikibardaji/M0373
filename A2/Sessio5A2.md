@@ -140,5 +140,6 @@ console.log(objecte);
 ```
 
 **Exercici**
+
 Agafa la variable del primer exercici estudiant i passa'l a JSON, fes el mateix pel segon.
 
