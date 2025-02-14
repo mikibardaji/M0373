@@ -8,10 +8,10 @@ JSON, que significa JavaScript Object Notation, és un format lleuger d'intercan
 ### Regles de sintaxi JSON
 La sintaxi JSON es deriva de la sintaxi de la notació d'objectes JavaScript:
 
-- Les dades es troben en parells nom/valor
-- Les dades estan separades per comes
-- Les claus arrissades {} per definir  objectes
-- Els claudàtors [] tenen matrius
+- Les dades es troben en parells clau/valor.
+- Les dades estan separades per comes tant clau, com valor.
+- Les claus arrissades {} per definir  objectes.
+- Els claudàtors [] tenen matrius.
 
 #### Valors JSON
 Eels valors han de ser un dels tipus de dades següents:
@@ -54,6 +54,24 @@ Eels valors han de ser un dels tipus de dades següents:
 
 Quant creem un objecte a mà, per saber que el format es correcte podem utilitzar [jsonint](https://jsonlint.com/)
 
+####Convencions
+
+Si volem representar alguna dada estandar, no tan convencional sempre s'utilitza **string**. Per que sigui unificat, seguirem la guia d’estil de Google respecte JSON  [JSON Style Guide](https://google.github.io/styleguide/jsoncstyleguide.xml).
+
+**Dates**
+```json
+  "dateRegistered": "2014-03-01T23:46:11-05:00"
+```
+
+**Valors de latitud/longitud**
+```json
+  "empireStateBuilding": "40.748747-73.985547"
+```
+Aquest exemple segueix el format ±DD.DDDD±DDD.DDDD, amb les convencions següents:
+
+* La latitud és el primer.
+* La latitud/longitud es representa amb un string. No pot ser un nombre a causa del signe menys.
+  
 #### Avantatges Json respecte XML
 Avantatges del JSON
 
@@ -72,8 +90,22 @@ Per validar que es correcte utilitza la web que valida JSON
 Crear un objecte JSON que representi assignatures nom, cicle, hores_duracio i ara modifica el estudiant, perque tingui un array d'objectes assignatura.
 
 
+### Objecte Javascript vs JSON
 
+S'escriu exactament igual que els objectes amb Javascript, excepte que les claus, amb JSON van entre "" i amb objecte NO.
 
+**JSON**
+```json
+{
+  "name": "Eva",
+  "age": 3
+}
+```
+**OBJECTE JS/TS**
+```typescript
+    name: "Eva",
+    age: 3
+```
 
 
 
