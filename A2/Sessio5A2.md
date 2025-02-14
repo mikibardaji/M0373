@@ -178,7 +178,6 @@ try { /*AIXÒ PROVAR-HO A CASA, I POTSER NO FICAR-HO EL TRY, JA ES VEURÀ*/
   const parsedData: Persona[] = JSON.parse(data); // Parsejar el JSON
 
   persones.push(...parsedData); // Afegir els objectes a l'array
-
   console.log("Dades carregades correctament:", persones);
 } catch (error) {
   console.error("Error en llegir el fitxer JSON:", error);
@@ -187,4 +186,8 @@ try { /*AIXÒ PROVAR-HO A CASA, I POTSER NO FICAR-HO EL TRY, JA ES VEURÀ*/
 /*Opcio 2 falta provar*/
 ```typescript
 const persones: Persona[] = await Bun.file("./persones.json").json();
+
+persones.forEach((persona, index) => {
+   console.log(`Persona ${index + 1}: Nom: ${persona.nom}, Edat: ${persona.edat}`);
+});
 ```
