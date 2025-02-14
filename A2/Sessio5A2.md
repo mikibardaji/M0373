@@ -1,5 +1,8 @@
 # Documents JSON
 
+Si amb la teoría aqui donada, et falta complementar sempre pots anar a [W3Schools Json](https://www.w3schools.com/js/js_json_intro.asp)
+
+
 ## Introducció al JSON
 
 JSON, que significa JavaScript Object Notation, és un format lleuger d'intercanvi de dades que és fàcil de llegir i escriure per als humans, i fàcil d'analitzar i generar per a les màquines. S'utilitza comunament per transmetre dades entre un servidor i una aplicació web com a text.
