@@ -143,3 +143,9 @@ console.log(objecte);
 
 Agafa la variable del primer exercici estudiant i passa'l a JSON, fes el mateix pel segon.
 
+**Exercici**
+Crea una interface per poder passar aquest Json a objecte i després passa'l
+
+```typescript
+const jsonGame = '{"name":"Mario Party","preu":20.35,"plataformes":["WII","Switch","PS5"]}';
+```
