@@ -172,7 +172,7 @@ type Persona = {
 };
 
 const persones: Persona[] = [];
-
+/*OPCIO 1 falta provar*/
 try { /*AIXÒ PROVAR-HO A CASA, I POTSER NO FICAR-HO EL TRY, JA ES VEURÀ*/
   const data = await Bun.file("./persones.json").text(); // Llegir el fitxer JSON
   const parsedData: Persona[] = JSON.parse(data); // Parsejar el JSON
@@ -183,4 +183,6 @@ try { /*AIXÒ PROVAR-HO A CASA, I POTSER NO FICAR-HO EL TRY, JA ES VEURÀ*/
 } catch (error) {
   console.error("Error en llegir el fitxer JSON:", error);
 }
+
+/*Opcio 2 falta provar*/
 ```
