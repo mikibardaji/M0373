@@ -68,6 +68,9 @@ Crear un objecte JSON que representi un estudiant amb les següents propietats: 
 
 Per validar que es correcte utilitza la web que valida JSON
 
+**Exercici 2:**
+Crear un objecte JSON que representi assignatures nom, cicle, hores_duracio i ara modifica el estudiant, perque tingui un array d'objectes assignatura.
+
 
 
 
