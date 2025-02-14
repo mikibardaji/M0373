@@ -111,7 +111,7 @@ S'escriu exactament igual que els objectes amb Javascript, excepte que les claus
 
 #### Convertir un objecte TypeScript a Json
 
-**Objecte JS/TS a Json -- JSON.stringify**
+*Objecte JS/TS a Json -- JSON.stringify*
 ```typescript
 interface Coche {
     modelo: string;
@@ -127,7 +127,7 @@ const jsonString: string = JSON.stringify(car);
 console.log(jsonString);
 ```
 
-**Json a Objecte JS/TS -- JSON.parse**
+*Json a Objecte JS/TS -- JSON.parse*
 ```typescript
 interface Coche {
     modelo: string;
