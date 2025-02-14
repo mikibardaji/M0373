@@ -52,6 +52,8 @@ Eels valors han de ser un dels tipus de dades següents:
 }
 ```
 
+Quant creem un objecte a mà, per saber que el format es correcte podem utilitzar [jsonint](https://jsonlint.com/)
+
 #### Avantatges Json respecte XML
 Avantatges del JSON
 
@@ -59,11 +61,12 @@ Avantatges del JSON
 + Lleuger: Consumeix menys ample de banda en comparació amb altres formats com XML.
 + Interoperabilitat: És compatible amb molts llenguatges de programació, no només JavaScript.
 
-[Comparativa JSON vs xml](https://www.w3schools.com/js/js_json_xml.asp)
-
-
 <a href="https://www.w3schools.com/js/js_json_xml.asp" target="_blank" rel="noopener noreferrer">Comparativa JSON vs xml</a>
 
+**Exercici 1:**
+Crear un objecte JSON que representi un estudiant amb les següents propietats: nom, edat, assignatures (array).
+
+Per validar que es correcte utilitza la web que valida JSON
 
 
 
