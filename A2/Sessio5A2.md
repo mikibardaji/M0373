@@ -87,7 +87,7 @@ Crear un objecte JSON que representi un estudiant amb les següents propietats: 
 Per validar que es correcte utilitza la web que valida JSON
 
 **Exercici 2:**
-Crear un objecte JSON que representi assignatures nom, cicle, hores_duracio i ara modifica el estudiant, perque tingui un array d'objectes assignatura.
+Crear un objecte JSON que representi assignatures nom, cicle, hores_duracio i ara crea el tipus estudiant2, perque tingui un array d'objectes assignatura.
 
 
 ### Objecte Javascript vs JSON
@@ -107,5 +107,38 @@ S'escriu exactament igual que els objectes amb Javascript, excepte que les claus
     age: 3
 ```
 
+### Conversió elements TSX a JSON i a la inversa
 
+#### Convertir un objecte TypeScript a Json
+
+**Objecte JS/TS a Json -- JSON.stringify**
+```typescript
+interface Coche {
+    modelo: string;
+    precio: number;
+    esElectrico: boolean; }
+const car: Coche =
+              { modelo: "Renaul Clio",
+                precio: 25,
+                esElectrico: true };
+console.log(car.precio); // 25
+
+const jsonString: string = JSON.stringify(car);
+console.log(jsonString);
+```
+
+**Json a Objecte JS/TS -- JSON.parse**
+```typescript
+interface Coche {
+    modelo: string;
+    precio: number;
+    esElectrico: boolean; }
+const jsonData = '{"modelo": "Citroen Picasso", "precio": 30, "esElectrico":false}';
+const objecte: Coche = JSON.parse(jsonData);
+
+console.log(objecte);
+```
+
+**Exercici**
+Agafa la variable del primer exercici estudiant i passa'l a JSON, fes el mateix pel segon.
 
