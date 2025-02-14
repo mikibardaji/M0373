@@ -23,7 +23,7 @@ Eels valors han de ser un dels tipus de dades següents:
 - array []
 - objecte {}
 
-´´´sh
+```json
 {
   "titol": "The Legend of Zelda: Breath of the Wild",
   "desenvolupador": "Nintendo",
@@ -50,4 +50,4 @@ Eels valors han de ser un dels tipus de dades següents:
     }
   ]
 }
-´´´
+
