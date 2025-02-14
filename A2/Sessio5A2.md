@@ -57,9 +57,9 @@ Quant creem un objecte a mà, per saber que el format es correcte podem utilitza
 #### Avantatges Json respecte XML
 Avantatges del JSON
 
-+ Simplicitat: La seva sintaxi és fàcil d'entendre i escriure.
-+ Lleuger: Consumeix menys ample de banda en comparació amb altres formats com XML.
-+ Interoperabilitat: És compatible amb molts llenguatges de programació, no només JavaScript.
++ *Simplicitat*: La seva sintaxi és fàcil d'entendre i escriure.
++ *Lleuger*: Consumeix menys ample de banda en comparació amb altres formats com XML.
++ *Interoperabilitat*: És compatible amb molts llenguatges de programació, no només JavaScript.
 
 <a href="https://www.w3schools.com/js/js_json_xml.asp" target="_blank" rel="noopener noreferrer">Comparativa JSON vs xml</a>
 
