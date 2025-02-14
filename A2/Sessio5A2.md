@@ -50,6 +50,7 @@ Eels valors han de ser un dels tipus de dades següents:
     }
   ]
 }
+```
 
 #### Avantatges Json respecte XML
 Avantatges del JSON
