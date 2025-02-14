@@ -185,4 +185,6 @@ try { /*AIXÒ PROVAR-HO A CASA, I POTSER NO FICAR-HO EL TRY, JA ES VEURÀ*/
 }
 
 /*Opcio 2 falta provar*/
+```typescript
+const persones: Persona[] = await Bun.file("./persones.json").json();
 ```
