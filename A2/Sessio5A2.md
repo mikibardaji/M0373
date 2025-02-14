@@ -61,7 +61,6 @@ Avantatges del JSON
 
 [Comparativa JSON vs xml](https://www.w3schools.com/js/js_json_xml.asp)
 
-https://www.w3schools.com/js/js_json_xml.asp
 
 <a href="https://www.w3schools.com/js/js_json_xml.asp" target="_blank" rel="noopener noreferrer">Comparativa JSON vs xml</a>
 
