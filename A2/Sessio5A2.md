@@ -152,3 +152,35 @@ Crea una interface per poder passar aquest Json a objecte i després passa'l
 ```typescript
 const jsonGame = '{"name":"Mario Party","preu":20.35,"plataformes":["WII","Switch","PS5"]}';
 ```
+
+###Lectura de fitxers json local (en obres ho haig de provar) 
+
+*dades.json*
+```json
+[
+  { "nom": "Anna", "edat": 30 },
+  { "nom": "Joan", "edat": 25 },
+  { "nom": "Maria", "edat": 28 }
+]
+```
+
+*llegir.ts*
+```typescript
+type Persona = {
+  nom: string;
+  edat: number;
+};
+
+const persones: Persona[] = [];
+
+try { /*AIXÒ PROVAR-HO A CASA, I POTSER NO FICAR-HO EL TRY, JA ES VEURÀ*/
+  const data = await Bun.file("./persones.json").text(); // Llegir el fitxer JSON
+  const parsedData: Persona[] = JSON.parse(data); // Parsejar el JSON
+
+  persones.push(...parsedData); // Afegir els objectes a l'array
+
+  console.log("Dades carregades correctament:", persones);
+} catch (error) {
+  console.error("Error en llegir el fitxer JSON:", error);
+}
+```
