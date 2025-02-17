@@ -174,7 +174,7 @@ type Persona = {
 };
 
 const persones: Persona[] = [];
-/*OPCIO 1*/
+/Opció 1*/
 try { 
   const data = await Bun.file("./persones.json").text(); // Llegir el fitxer JSON
   const parsedData: Persona[] = JSON.parse(data); // Parsejar el JSON
@@ -219,3 +219,12 @@ type Alumne = {
       console.error("Error en guardar els alumnes:", error);
     }
 ```
+
+**Exercici**
+Busca a internet, quines opcions permet el stringify, com a segon i tercer paràmetre (en el nostre cas null i 2) i fes una prova de guardar les mateixes dades amb diferents opcions (amb fitxers diferents), on provoquis les diferents formes de gravar-ho.
+
+**Exercici**
+Crea un fitxer Json, on guardes jugadors (Esport que vulguis), on tindrà el atribut, nom, edat, i equip al que pertany, ficant de varis equips.
+· Llegeix el fitxer, i mostra'ls per consola
+· Un cop carregat a un array, mostra'l amb una pagina html i una taula, com vam deixar l'altra día.
+
