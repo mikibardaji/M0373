@@ -153,7 +153,9 @@ Crea una interface per poder passar aquest Json a objecte i després passa'l
 const jsonGame = '{"name":"Mario Party","preu":20.35,"plataformes":["WII","Switch","PS5"]}';
 ```
 
-###Lectura de fitxers json local (en obres ho haig de provar) 
+### Lectura de fitxers json local
+
+Utilitzarem la funció **await Bun.file** com es veu al exemple 2
 
 *dades.json*
 ```json
@@ -172,8 +174,8 @@ type Persona = {
 };
 
 const persones: Persona[] = [];
-/*OPCIO 1 funciona*/
-try { /*AIXÒ PROVAR-HO A CASA, I POTSER NO FICAR-HO EL TRY, JA ES VEURÀ*/
+/*OPCIO 1*/
+try { 
   const data = await Bun.file("./persones.json").text(); // Llegir el fitxer JSON
   const parsedData: Persona[] = JSON.parse(data); // Parsejar el JSON
 
@@ -183,11 +185,37 @@ try { /*AIXÒ PROVAR-HO A CASA, I POTSER NO FICAR-HO EL TRY, JA ES VEURÀ*/
   console.error("Error en llegir el fitxer JSON:", error);
 }
 
-/*Opcio 2 funciona*/
+/*Opcio 2*/
 ```typescript
 const persones: Persona[] = await Bun.file("./persones.json").json();
 
 persones.forEach((persona, index) => {
    console.log(`Persona ${index + 1}: Nom: ${persona.nom}, Edat: ${persona.edat}`);
 });
+```
+
+### Escritura objectes a fitxers Json
+
+Utilitzarem la funció **await Bun.write* com es veu al exemple 2
+
+```typescript
+type Alumne = {
+    nom: string;
+    edat: number;
+    curs: string;
+  };
+  
+  const alumnes: Alumne[] = [
+    { nom: "Anna", edat: 14, curs: "3r ESO" },
+    { nom: "Joan", edat: 15, curs: "4t ESO" },
+    { nom: "Maria", edat: 13, curs: "2n ESO" },
+  ];
+  
+  // Guardar l'array en un fitxer JSON
+    try {
+      await Bun.write("alumnes.json", JSON.stringify(alumnes, null, 2));
+      console.log("Alumnes guardats correctament a 'alumnes.json'");
+    } catch (error) {
+      console.error("Error en guardar els alumnes:", error);
+    }
 ```
