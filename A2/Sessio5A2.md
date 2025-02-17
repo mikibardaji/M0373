@@ -57,7 +57,7 @@ Eels valors han de ser un dels tipus de dades següents:
 
 Quant creem un objecte a mà, per saber que el format es correcte podem utilitzar la web [jsonint](https://jsonlint.com/)
 
-####Convencions
+#### Convencions
 
 Si volem representar alguna dada estandar, no tan convencional,  sempre s'utilitza el tipus **string**. Per que sigui unificat, seguirem la guia d’estil de Google respecte JSON  [JSON Style Guide](https://google.github.io/styleguide/jsoncstyleguide.xml).
 
@@ -84,14 +84,10 @@ Avantatges del JSON
 
 <a href="https://www.w3schools.com/js/js_json_xml.asp" target="_blank" rel="noopener noreferrer">Comparativa JSON vs xml</a>
 
-**Exercici 1:**
-
-*Crear un objecte JSON que representi un estudiant amb les següents propietats: nom, edat, assignatures (array).
+**Exercici 1:** *Crear un objecte JSON que representi un estudiant amb les següents propietats: nom, edat, assignatures (array).
 Per validar que es correcte utilitza la web que valida JSON*
 
-**Exercici 2:**
-
-*Crear un objecte JSON que representi assignatures nom, cicle, hores_duracio i ara crea el tipus estudiant2, perque tingui un array d'objectes assignatura.*
+**Exercici 2:** *Crear un objecte JSON que representi assignatures nom, cicle, hores_duracio i ara crea el tipus estudiant2, perque tingui un array d'objectes assignatura.*
 
 
 ### Objecte Javascript vs JSON
