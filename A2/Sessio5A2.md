@@ -1,6 +1,8 @@
 # Documents JSON
 
-Si amb la teoría aqui donada, et falta complementar sempre pots anar a [W3Schools Json](https://www.w3schools.com/js/js_json_intro.asp)
+Bibliografia:
+  - [W3Schools Json](https://www.w3schools.com/js/js_json_intro.asp)
+  - [Mozilla.org](https://developer.mozilla.org/es/docs/Learn_web_development/Core/Scripting/JSON)
 
 
 ## Introducció al JSON
