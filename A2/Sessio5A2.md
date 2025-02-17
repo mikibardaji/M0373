@@ -66,6 +66,18 @@ Si volem representar alguna dada estandar, no tan convencional,  sempre s'utilit
   "dateRegistered": "2014-03-01T23:46:11-05:00"
 ```
 
+Per convertir un camp data al format String correcte hauriem d'utilitzar la funció toISOString().
+
+```typescript
+const esdeveniment: Esdeveniment = {
+  titol: "Reunió de professors",
+  data: new Date().toISOString(), // Converteix la data al format ISO 8601
+};
+```
+
+  · Converteix la data a una cadena en format ISO 8601 (YYYY-MM-DDTHH:MM:SS.sssZ).
+  · Exemple de sortida: "2025-02-17T22:45:00.123Z".
+
 **Valors de latitud/longitud**
 ```json
   "empireStateBuilding": "40.748747-73.985547"
