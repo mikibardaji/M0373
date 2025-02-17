@@ -85,12 +85,13 @@ Avantatges del JSON
 <a href="https://www.w3schools.com/js/js_json_xml.asp" target="_blank" rel="noopener noreferrer">Comparativa JSON vs xml</a>
 
 **Exercici 1:**
-Crear un objecte JSON que representi un estudiant amb les següents propietats: nom, edat, assignatures (array).
 
-Per validar que es correcte utilitza la web que valida JSON
+*Crear un objecte JSON que representi un estudiant amb les següents propietats: nom, edat, assignatures (array).
+Per validar que es correcte utilitza la web que valida JSON*
 
 **Exercici 2:**
-Crear un objecte JSON que representi assignatures nom, cicle, hores_duracio i ara crea el tipus estudiant2, perque tingui un array d'objectes assignatura.
+
+*Crear un objecte JSON que representi assignatures nom, cicle, hores_duracio i ara crea el tipus estudiant2, perque tingui un array d'objectes assignatura.*
 
 
 ### Objecte Javascript vs JSON
@@ -144,10 +145,11 @@ console.log(objecte);
 
 **Exercici**
 
-Agafa la variable del primer exercici estudiant i passa'l a JSON, fes el mateix pel segon.
+*Agafa la variable del primer exercici estudiant i passa'l a JSON, fes el mateix pel segon.*
 
 **Exercici**
-Crea una interface per poder passar aquest Json a objecte i després passa'l
+
+*Crea una interface per poder passar aquest Json a objecte i després passa'l*
 
 ```typescript
 const jsonGame = '{"name":"Mario Party","preu":20.35,"plataformes":["WII","Switch","PS5"]}';
@@ -221,10 +223,12 @@ type Alumne = {
 ```
 
 **Exercici**
-Busca a internet, quines opcions permet el stringify, com a segon i tercer paràmetre (en el nostre cas null i 2) i fes una prova de guardar les mateixes dades amb diferents opcions (amb fitxers diferents), on provoquis les diferents formes de gravar-ho.
+
+*Busca a internet, quines opcions permet el stringify, com a segon i tercer paràmetre (en el nostre cas null i 2) i fes una prova de guardar les mateixes dades amb diferents opcions (amb fitxers diferents), on provoquis les diferents formes de gravar-ho.*
 
 **Exercici**
-Crea un fitxer Json, on guardes jugadors (Esport que vulguis), on tindrà el atribut, nom, edat, i equip al que pertany, ficant de varis equips.
+
+*Crea un fitxer Json, on guardes jugadors (Esport que vulguis), on tindrà el atribut, nom, edat, i equip al que pertany, ficant de varis equips.
 · Llegeix el fitxer, i mostra'ls per consola
-· Un cop carregat a un array, mostra'l amb una pagina html i una taula, com vam deixar l'altra día.
+· Un cop carregat a un array, mostra'l amb una pagina html i una taula, com vam deixar l'altra día.*
 
