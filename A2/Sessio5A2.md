@@ -55,11 +55,11 @@ Eels valors han de ser un dels tipus de dades següents:
 }
 ```
 
-Quant creem un objecte a mà, per saber que el format es correcte podem utilitzar [jsonint](https://jsonlint.com/)
+Quant creem un objecte a mà, per saber que el format es correcte podem utilitzar la web [jsonint](https://jsonlint.com/)
 
 ####Convencions
 
-Si volem representar alguna dada estandar, no tan convencional sempre s'utilitza **string**. Per que sigui unificat, seguirem la guia d’estil de Google respecte JSON  [JSON Style Guide](https://google.github.io/styleguide/jsoncstyleguide.xml).
+Si volem representar alguna dada estandar, no tan convencional,  sempre s'utilitza el tipus **string**. Per que sigui unificat, seguirem la guia d’estil de Google respecte JSON  [JSON Style Guide](https://google.github.io/styleguide/jsoncstyleguide.xml).
 
 **Dates**
 ```json
