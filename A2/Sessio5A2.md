@@ -139,13 +139,9 @@ const objecte: Coche = JSON.parse(jsonData);
 console.log(objecte);
 ```
 
-**Exercici**
+**Exercici 3:** *Agafa la variable del primer exercici estudiant i passa'l a JSON, fes el mateix pel segon.*
 
-*Agafa la variable del primer exercici estudiant i passa'l a JSON, fes el mateix pel segon.*
-
-**Exercici**
-
-*Crea una interface per poder passar aquest Json a objecte i després passa'l*
+**Exercici 4:** *Crea una interface per poder passar aquest Json a objecte i després passa'l*
 
 ```typescript
 const jsonGame = '{"name":"Mario Party","preu":20.35,"plataformes":["WII","Switch","PS5"]}';
@@ -218,12 +214,9 @@ type Alumne = {
     }
 ```
 
-**Exercici**
+**Exercici 5:** *Busca a internet, quines opcions permet el stringify, com a segon i tercer paràmetre (en el nostre cas null i 2) i fes una prova de guardar les mateixes dades amb diferents opcions (amb fitxers diferents), on provoquis les diferents formes de gravar-ho.*
 
-*Busca a internet, quines opcions permet el stringify, com a segon i tercer paràmetre (en el nostre cas null i 2) i fes una prova de guardar les mateixes dades amb diferents opcions (amb fitxers diferents), on provoquis les diferents formes de gravar-ho.*
-
-**Exercici**
-
+**Exercici 6:**
 *Crea un fitxer Json, on guardes jugadors (Esport que vulguis), on tindrà el atribut, nom, edat, i equip al que pertany, ficant de varis equips.
 · Llegeix el fitxer, i mostra'ls per consola
 · Un cop carregat a un array, mostra'l amb una pagina html i una taula, com vam deixar l'altra día.*
