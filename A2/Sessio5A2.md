@@ -154,13 +154,12 @@ const objecte: Coche = JSON.parse(jsonData);
 console.log(objecte);
 ```
 
-**Exercici 3:** *Agafa la variable del primer exercici estudiant i passa'l a JSON, fes el mateix pel segon.*
-
-**Exercici 4:** *Crea una interface per poder passar aquest Json a objecte i després passa'l*
+**Exercici 3:** *Crea una interface per poder passar aquest Json a objecte i després passa'l*
 
 ```typescript
 const jsonGame = '{"name":"Mario Party","preu":20.35,"plataformes":["WII","Switch","PS5"]}';
 ```
+**Exercici 4:** *Agafa les dades del Estudiant2 que hem fet a Json, assigna'l a una variable String i despres converteix-lo a objectes TypeScript.*
 
 ### Lectura de fitxers json local
 
