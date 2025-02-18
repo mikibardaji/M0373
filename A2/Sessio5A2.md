@@ -140,6 +140,7 @@ console.log(car.precio); // 25
 const jsonString: string = JSON.stringify(car);
 console.log(jsonString);
 ```
+#### Convertir un JSON a objecte TypeScript
 
 *Json a Objecte JS/TS -- JSON.parse*
 ```typescript
