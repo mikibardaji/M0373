@@ -162,12 +162,12 @@ console.log(objecte);
 ```typescript
 const jsonGame = '{"name":"Mario Party","preu":20.35,"plataformes":["WII","Switch","PS5"]}';
 ```
-[solució 3](https://github.com/mikibardaji/M0373/blob/main/A2/A2/Sessio5A2/estudiant.json)
+[solució 3](https://github.com/mikibardaji/M0373/blob/main/A2/A2/Sessio5A2/exe3.ts)
 
 
 **Exercici 4:** *Agafa les dades del Estudiant2 que hem fet a Json, assigna'l a una variable String i despres converteix-lo a objectes TypeScript.*
 
-[solució 4](https://github.com/mikibardaji/M0373/blob/main/A2/A2/Sessio5A2/estudiant.json)
+[solució 4](https://github.com/mikibardaji/M0373/blob/main/A2/A2/Sessio5A2/exe4.ts)
 
 ### Lectura de fitxers json local
 
