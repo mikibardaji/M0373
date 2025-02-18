@@ -1,0 +1,57 @@
+[
+    {
+    "nom": "Roser Salietti",
+    "edat": 32,
+    "Tipus": "Grau Superior",
+    "assignatures": [
+        {
+            "nom": "M0485-Programació",
+            "cicle": "DAM",
+            "hores_duracio": 247
+          },
+          {
+            "nom": "M0373-Llenguatge Marques",
+            "cicle": "DAM",
+            "hores_duracio": 99
+          },
+          {
+            "nom": "M02-Base Dades",
+            "cicle": "DAM",
+            "hores_duracio": 198
+          },
+          {
+            "nom": "M09-Aplicacions web",
+            "cicle": "SMX",
+            "hores_duracio": 247
+          }
+    ]
+  }
+  ,
+  {
+    "nom": "Toni Marti",
+    "edat": 42,
+    "Edat": "Grau Superior",
+    "assignatures": [
+        {
+            "nom": "M0485-Programació",
+            "cicle": "SMX",
+            "hores_duracio": 247
+          },
+          {
+            "nom": "M0373-Llenguatge Marques",
+            "cicle": "SMX",
+            "hores_duracio": 99
+          },
+          {
+            "nom": "M02-Base Dades",
+            "cicle": "SMX",
+            "hores_duracio": 198
+          },
+          {
+            "nom": "M09-Aplicacions web",
+            "cicle": "SMX",
+            "hores_duracio": 247
+          }
+    ]
+  }
+]

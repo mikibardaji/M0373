@@ -1,0 +1,14 @@
+[{
+    "nom": "Albert Mallada",
+    "edat": 22,
+    "assignatures": ["M0485-Programació", "M0373-Llenguatge Marques", "M02-Base de Dades", "M01-Sistemes Operatius"],
+    "hores": [247,99,198,132]
+  }
+ , 
+
+  {
+    "nom": "M0485-Programació",
+    "cicle": "DAM",
+    "hores_duracio": 247
+  }
+] 

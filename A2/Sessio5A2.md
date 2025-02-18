@@ -101,8 +101,11 @@ Avantatges del JSON
 **Exercici 1:** *Crear un objecte JSON que representi un estudiant amb les següents propietats: nom, edat, assignatures (array).
 Per validar que es correcte utilitza la web que valida JSON*
 
+[solució 1](https://www.w3schools.com/js/js_json_xml.asp)
+
 **Exercici 2:** *Crear un objecte JSON que representi assignatures nom, cicle, hores_duracio i ara crea el tipus estudiant2, perque tingui un array d'objectes assignatura.*
 
+[solució 2](https://www.w3schools.com/js/js_json_xml.asp)
 
 ### Objecte Javascript vs JSON
 
@@ -159,7 +162,12 @@ console.log(objecte);
 ```typescript
 const jsonGame = '{"name":"Mario Party","preu":20.35,"plataformes":["WII","Switch","PS5"]}';
 ```
+[solució 3](https://www.w3schools.com/js/js_json_xml.asp)
+
+
 **Exercici 4:** *Agafa les dades del Estudiant2 que hem fet a Json, assigna'l a una variable String i despres converteix-lo a objectes TypeScript.*
+
+[solució 4](https://www.w3schools.com/js/js_json_xml.asp)
 
 ### Lectura de fitxers json local
 
