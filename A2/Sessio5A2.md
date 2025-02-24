@@ -236,7 +236,8 @@ type Alumne = {
     }
 ```
 
-**Exercici 5:** *Busca a internet, quines opcions permet el stringify, com a segon i tercer paràmetre (en el nostre cas null i 2) i fes una prova de guardar les mateixes dades amb diferents opcions (amb fitxers diferents), on provoquis les diferents formes de gravar-ho.*
+**Exercici 5:** 
+*Busca a internet, quines opcions permet el stringify, com a segon i tercer paràmetre (en el nostre cas null i 2) i fes una prova de guardar les mateixes dades amb diferents opcions (amb fitxers diferents), on provoquis les diferents formes de gravar-ho.*
 
 **Exercici 6:**
 *Crea un fitxer Json, on guardes jugadors (Esport que vulguis), on tindrà el atribut, nom, edat, i equip al que pertany, ficant de varis equips.
