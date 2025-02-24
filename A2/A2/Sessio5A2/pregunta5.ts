@@ -23,7 +23,7 @@ const users5 = [
   
   // Crear fitxers amb diferents opcions de stringify
   
-  // 1. Usant null i 2 (amb indentació de 2 espais)
+  // 1. Oopcio null i 2 (amb indentació de 2 espais)
   const json1 = JSON.stringify(users5, null, 2);
   await Bun.write('output1.json', json1);
   
@@ -31,7 +31,7 @@ const users5 = [
   const json2 = JSON.stringify(users5, null);
   await Bun.write('output2.json', json2);
   
-  // 3. Usant un replacer (filtrar només el nom i el username)
+  // 3. Utilitzant un replacer (filtrar perque no escrigui email ni telefon)
   const json3 = JSON.stringify(users5, (key, value) => {
     if (key === 'email' || key === 'phone') {
       return undefined; // Exclou l'email i el telèfon
