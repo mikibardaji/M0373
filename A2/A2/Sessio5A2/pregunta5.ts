@@ -23,7 +23,7 @@ const users5 = [
   
   // Crear fitxers amb diferents opcions de stringify
   
-  // 1. Oopcio null i 2 (amb indentació de 2 espais)
+  // 1. Oopcio null i 2 (per donar-li format amb 2 identacións/tabulació)
   const json1 = JSON.stringify(users5, null, 2);
   await Bun.write('output1.json', json1);
   
