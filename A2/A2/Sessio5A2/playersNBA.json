@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Michael Jordan",
+      "age": 28,
+      "team": "Chicago Bulls",
+      "position": "Shooting Guard"
+    },
+    {
+      "name": "Magic Johnson",
+      "age": 30,
+      "team": "Los Angeles Lakers",
+      "position": "Point Guard"
+    },
+    {
+      "name": "Larry Bird",
+      "age": 33,
+      "team": "Boston Celtics",
+      "position": "Small Forward"
+    },
+    {
+      "name": "Kareem Abdul-Jabbar",
+      "age": 41,
+      "team": "Los Angeles Lakers",
+      "position": "Center"
+    },
+    {
+      "name": "Patrick Ewing",
+      "age": 28,
+      "team": "New York Knicks",
+      "position": "Center"
+    },
+    {
+      "name": "Charles Barkley",
+      "age": 32,
+      "team": "Phoenix Suns",
+      "position": "Power Forward"
+    },
+    {
+      "name": "Scottie Pippen",
+      "age": 27,
+      "team": "Chicago Bulls",
+      "position": "Small Forward"
+    },
+    {
+      "name": "Dennis Rodman",
+      "age": 35,
+      "team": "Chicago Bulls",
+      "position": "Power Forward"
+    },
+    {
+      "name": "John Stockton",
+      "age": 30,
+      "team": "Utah Jazz",
+      "position": "Point Guard"
+    },
+    {
+      "name": "Reggie Miller",
+      "age": 29,
+      "team": "Indiana Pacers",
+      "position": "Shooting Guard"
+    }
+  ]
+  
