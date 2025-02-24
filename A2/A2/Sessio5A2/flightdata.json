@@ -1,0 +1,46 @@
+{
+  "id": "bcn-cdg-tomorrow-morning-after-breakfast",
+  "ufoSeen": false,
+  "plane": {
+    "name": "fearless-ostrich",
+    "seats": 50
+  },
+  "departure": {
+    "code": "BCN",
+    "name": "Aeroport Josep Tarradellas Barcelona",
+    "city": "Barcelona",
+    "country": "Spain"
+  },
+  "arrival": {
+    "code": "CDG",
+    "name": "Paris-Charles de Gaulle",
+    "city": "Paris",
+    "country": "France"
+  },
+  "passengers": [
+    {
+      "name": "Julia",
+      "face": "🤗"
+    },
+    {
+      "name": "Mary",
+      "face": "🫣"
+    },
+    {
+      "name": "Josephine",
+      "face": "🙄"
+    },
+    {
+      "name": "Albert",
+      "face": "🤢"
+    },
+    {
+      "name": "Mike",
+      "face": "😵‍💫"
+    },
+    {
+      "name": "dd",
+      "face": ":)"
+    }
+  ]
+}
