@@ -248,4 +248,4 @@ type Alumne = {
 
 Realitza l'exercici de Vuelos Pajaro Bobo que es troba al [final de la wiki](https://xtec.dev/data/json/)
 
-[Solució](https://github.com/mikibardaji/M0373/blob/main/A2/A2/Sessio5A2/flight.ts)
+
