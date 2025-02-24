@@ -243,3 +243,7 @@ type Alumne = {
 · Llegeix el fitxer, i mostra'ls per consola
 · Un cop carregat a un array, mostra'l amb una pagina html i una taula, com vam fer  l'altra día. [objectes](https://github.com/mikibardaji/M0373/blob/main/A2/Sessio4A2.md)*
 
+
+**Exercici Aula:**
+Realitza l'exercici de Vuelos Pajaro Bobo que es troba al [final de la wiki](https://xtec.dev/data/json/)
+
