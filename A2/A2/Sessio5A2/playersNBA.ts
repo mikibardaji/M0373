@@ -5,6 +5,7 @@ type Player = {
   name: string;
   age: number;
   team: string;
+  position: string;
 };
 
 // Llegim el fitxer JSON amb informació sobre jugadors

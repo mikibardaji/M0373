@@ -27,21 +27,20 @@ type Passenger = {
 
 //import { readFile, writeFile } from 'bun:fs';
 
-// Llegim el fitxer JSON existent
+// Lectura fitxer Json (String)
 const fileContent = await Bun.file("./flight.json").text(); 
 
-// Convertim el contingut del fitxer a un objecte JavaScript
+// Passem el String Json a un objecte Typescript
 const vuelo: FlightData = JSON.parse(fileContent);
-
-// Demanem les dades per al nou passatger
+//const sinEstructura = JSON.parse(fileContent);
+//console.log(sinEstructura);
+/*
+// Demanem dades
 const newPassengerName = prompt("Introdueix el nom del nou passatger:");
 const newPassengerFace = prompt("Introdueix la cara del nou passatger (ex: 🤗, 😄):");
 
 // Afegim el nou passatger a la llista
-/*const newPassenger = {
-  name: newPassengerName,
-  face: newPassengerFace
-};*/
+
 const pasajeros:Passenger = { 
     name:newPassengerName,
     face:newPassengerFace
@@ -52,7 +51,7 @@ vuelo.passengers.push(pasajeros);
 //const updatedFlightData = JSON.stringify(flightData, null, 2);
 
 // Guardem les dades actualitzades al fitxer
-await Bun.write("flightdata2.json", JSON.stringify(vuelo, null, 2));
+await Bun.write("flightdata3.json", JSON.stringify(vuelo, null, 2));
 //await writeFile('flightData.json', updatedFlightData);
 
-console.log('Nou passatger afegit amb èxit!');
+console.log('Nou passatger a la llista!');*/
