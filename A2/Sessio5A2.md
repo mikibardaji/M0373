@@ -242,7 +242,8 @@ type Alumne = {
 *[Solució](https://github.com/mikibardaji/M0373/blob/main/A2/A2/Sessio5A2/pregunta5.ts)*
 
 **Exercici 6:**
-*Crea un fitxer Json, on guardes jugadors (Esport que vulguis), on tindrà el atribut, nom, edat, i equip al que pertany, ficant de varis equips.
+
+· Crea un fitxer Json, on guardes jugadors (Esport que vulguis), on tindrà el atribut, nom, edat, i equip al que pertany, ficant de varis equips.
 · Llegeix el fitxer, i mostra'ls per consola
 · Un cop carregat a un array, mostra'l amb una pagina html i una taula, com vam fer  l'altra día. [objectes](https://github.com/mikibardaji/M0373/blob/main/A2/Sessio4A2.md)*
 
