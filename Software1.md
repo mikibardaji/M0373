@@ -14,3 +14,8 @@ Instal·lació paquet box
 
 Instal·lació Vscode
   - install-code
+
+Install bun
+  - scoop install bun
+Para provar que s'ha instal·lat executar
+  - bun repl(al terminal)
