@@ -18,10 +18,8 @@ Instal·lació paquet box
 *Install bun*
   - scoop install bun
 Para provar que s'ha instal·lat executar
-  - bun repl(al terminal)
+  - bun repl(al terminal per sortir escriure .exit)
 
-*Per poder compilar TSX i pasar-lo a typescript
-  - [compilació TSX a JavaScript](https://github.com/mikibardaji/M0373/tree/main/A2/A2/TSX_HTML#readme)
 
 *Modul validador Json*
   - bun add ajv
