@@ -13,14 +13,14 @@
   - Update-Module Box
  *Tancar la sessió i tornar a obrir*
 
-*Instal·lació Vscode*
+#### **Instal·lació Vscode**
   - install-code
 
-*Install bun*
+#### **Install bun**
   - scoop install bun
 Para provar que s'ha instal·lat executar
   - bun repl(al terminal per sortir escriure .exit)
 
 
-*Modul validador Json*
+#### **Modul validador Json**
   - bun add ajv
