@@ -20,6 +20,8 @@ Instal·lació paquet box
 Para provar que s'ha instal·lat executar
   - bun repl(al terminal)
 
+*Per poder compilar TSX i pasar-lo a typescript
+  - [compilació TSX](https://github.com/mikibardaji/M0373/tree/main/A2/A2/TSX_HTML#readme)
 
 *Modul validador Json*
   - bun add ajv
