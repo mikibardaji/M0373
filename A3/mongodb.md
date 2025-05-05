@@ -78,4 +78,4 @@ Exemple pràctic d'un tipic exercici crud
     }
   
 
-
+A partir d'aquí les operacions que pots fer, son totes les possibles amb mongoDb, pel qual sol tens que tenir clar la teoria de [mongodb](https://www.w3schools.com/mongodb/index.php)
