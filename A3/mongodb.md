@@ -29,6 +29,53 @@ Bones pràctiques, no es olbigatori, pero si el script sempre te que atacar una 
 
 Exemple pràctic d'un tipic exercici crud
 
-    
+        import { MongoClient } from "mongodb";
+
+    // Connexió a MongoDB
+    const uri = "mongodb://localhost:27017";  // Canvia l'URI si utilitzes un altre servidor MongoDB
+    const client = new MongoClient(uri);
+
+    try {
+        await client.connect(); // Connexió amb la base de dades
+        const db = client.db("botiga");  // Seleccionem la base de dades 'botiga'
+        const productes = db.collection("productes");  // Seleccionem la col·lecció 'productes'
+
+        // Crear (afegir un producte)
+        const insertResult = await productes.insertOne({ nom: "Llapis", preu: 1.2 });
+        if (insertResult.acknowledged) {
+        console.log("Producte 'Llapis' afegit correctament!");
+        } else {
+        console.log("No s'ha pogut afegir el producte.");
+        }
+
+        // Llegir (consultar tots els productes)
+        const tots = await productes.find().toArray();
+        console.log("Tots els productes:", tots);
+
+        // Actualitzar (modificar el preu del producte 'Llapis')
+        const updateResult = await productes.updateOne(
+        { nom: "Llapis" }, 
+        { $set: { preu: 1.5 } }
+        );
+        if (updateResult.modifiedCount > 0) {
+        console.log("Producte 'Llapis' actualitzat correctament!");
+        } else {
+        console.log("No s'ha trobat cap producte per actualitzar.");
+        }
+
+        // Eliminar (eliminar el producte 'Llapis')
+        const deleteResult = await productes.deleteOne({ nom: "Llapis" });
+        if (deleteResult.deletedCount > 0) {
+        console.log("Producte 'Llapis' eliminat correctament!");
+        } else {
+        console.log("No s'ha trobat cap producte per eliminar.");
+        }
+    } catch (error) {
+        console.error("Error amb MongoDB:", error);
+    } finally {
+        await client.close();  // Tanquem la connexió amb la base de dades
+        console.log("Operacions CRUD completades!");
+    }
+  
 
 
