@@ -29,7 +29,7 @@ Bones pràctiques, no es olbigatori, pero si el script sempre te que atacar una 
 
 Exemple pràctic d'un tipic exercici crud
 
-        import { MongoClient } from "mongodb";
+    import { MongoClient } from "mongodb";
 
     // Connexió a MongoDB
     const uri = "mongodb://localhost:27017";  // Canvia l'URI si utilitzes un altre servidor MongoDB
