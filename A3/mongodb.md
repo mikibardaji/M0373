@@ -2,11 +2,12 @@
 
 Crea un projecte amb Bun:
 
-``` Terminal window
+    enter code here
+    Terminal window
     mkdir monogdb
     cd monogdb
     bun init -y
-```sh
+
 
 Afegeix una dependència amb mongodb:
 
