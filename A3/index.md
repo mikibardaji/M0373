@@ -81,6 +81,7 @@ Exemple pràctic d'un tipic exercici crud
 A partir d'aquí les operacions que pots fer, son totes les possibles amb mongoDb, pel qual sol tens que tenir clar la teoria de [mongodb](https://www.w3schools.com/mongodb/index.php)
 
 
+A partir d'aquí ens basarem amb l'ajuda que ja dona el mateix mongodb, amb typescript a la seva [pagina oficial](https://www.mongodb.com/docs/drivers/node/current/usage-examples/)
 
 
 #### Creació cluster
