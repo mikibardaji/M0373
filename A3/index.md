@@ -79,3 +79,31 @@ Exemple pràctic d'un tipic exercici crud
   
 
 A partir d'aquí les operacions que pots fer, son totes les possibles amb mongoDb, pel qual sol tens que tenir clar la teoria de [mongodb](https://www.w3schools.com/mongodb/index.php)
+
+
+
+
+#### Creació cluster
+
+A la web [atles mongodb](https://cloud.mongodb.com/), t'ofereix un cluster gratuït, per poder conectar-hi.
+
+![atles](mongodb/cluster1.PNG)
+
+La url la pots obtenir a la pestanya *Connection* , que et dona el link vàlid per ficar al ts.
+
+
+![link](mongodb/cluster2.PNG)
+
+
+Per poder fer aquesta connexió, tindràs que crear un usuari amb permisos, per poder manipular la base de dades, o si sol es per consulta, dona-li els permisos pertinents:
+
+![usuari](mongodb/cluster3.PNG)
+
+I per poder realitzar les pertinents proves i perque no et doni problemes de conexió, habilita qualsevol connexió, temporalment, no es recomable deixar aquest accés, obert sempre
+
+![ip_permesa](mongodb/cluster4.PNG)
+
+
+
+![](mongodb/cluster.png)
+
