@@ -2,8 +2,6 @@
 
 Crea un projecte amb Bun:
 
-    enter code here
-    Terminal window
     mkdir monogdb
     cd monogdb
     bun init -y
