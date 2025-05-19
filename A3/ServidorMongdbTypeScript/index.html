@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    body {
+    font-family: Arial, sans-serif;
+    padding: 2em;
+    background-color: #f9f9f9;
+  }
+
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+
+  table {
+    margin: 2em auto;
+    border-collapse: collapse;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #fff;
+  }
+
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  th {
+    background-color: #007acc;
+    color: white;
+  }
+
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+
+  </style>
+  <title>Consulta MongoDB amb Bun</title>
+</head>
+<body>
+  <h1>Llistat d'elements de MongoDB</h1>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Nom</th>
+        <th>Categoria</th>
+      </tr>
+    </thead>
+    <tbody id="taula-dades"></tbody>
+  </table>
+
+  <h2>Afegir nou producte</h2>
+  <form id="formulari-producte">
+    <label for="nom">Nom:</label>
+    <input type="text" id="nom" name="nom" required />
+
+    <label for="categoria">Categoria:</label>
+    <input type="text" id="categoria" name="categoria" required />
+
+    <button type="submit">Afegir</button>
+  </form>
+
+  <p id="missatge"></p>
+
+  <script>
+    /*carrega amb format get espera la resposta json i carrega la taula
+    carrega la /api/elements*/
+    function carregarTaula() {
+      fetch("/api/elements")
+        .then(res => res.json())
+        .then(dades => {
+          const cosTaula = document.getElementById("taula-dades");
+          cosTaula.innerHTML = "";
+          dades.forEach(item => {
+            const fila = document.createElement("tr");
+            fila.innerHTML = `<td>${item.nom}</td><td>${item.categoria}</td>`;
+            cosTaula.appendChild(fila);
+          });
+        })
+        .catch(error => console.error("Error carregant dades:", error));
+    }
+
+    carregarTaula();
+/*Carrera amb method post, crea l'elemt i el fica a la base de dades*/
+    document.getElementById("formulari-producte").addEventListener("submit", async function(event) {
+      event.preventDefault();
+
+      const nom = document.getElementById("nom").value.trim();
+      const categoria = document.getElementById("categoria").value.trim();
+      const missatge = document.getElementById("missatge");
+
+      if (!nom || !categoria) {
+        missatge.textContent = "Cal omplir tots els camps.";
+        missatge.style.color = "red";
+        return;
+      }
+
+      try {
+        const resposta = await fetch("/api/elements", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({ nom, categoria })
+        });
+
+        if (resposta.ok) {
+          missatge.textContent = "Producte afegit correctament!";
+          missatge.style.color = "green";
+          this.reset();
+          carregarTaula();
+        } else {
+          missatge.textContent = "Error en afegir el producte.";
+          missatge.style.color = "red";
+        }
+      } catch (error) {
+        console.error("Error a la crida:", error);
+        missatge.textContent = "Error inesperat.";
+        missatge.style.color = "red";
+      }
+    });
+  </script>
+</body>
+</html>
