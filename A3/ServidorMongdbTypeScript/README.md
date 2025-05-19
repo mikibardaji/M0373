@@ -9,7 +9,7 @@ Aquest projecte és una aplicació web senzilla que permet consultar i afegir pr
 - [Bun](https://bun.sh/) – Entorn d'execució ultraràpid per JavaScript/TypeScript.
 - [MongoDB](https://www.mongodb.com/) – Base de dades NoSQL.
 - HTML i CSS – Per a la interfície d’usuari.
-- TypeScript – Per escriure el servidor i gestionar les rutes.
+- [TypeScript](https://www.typescriptlang.org/) – Per escriure el servidor i gestionar les rutes.
 
 ---
 
